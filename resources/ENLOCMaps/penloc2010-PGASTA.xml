@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/penloc2-econ-gast-abierta" mainSchemaPrefix="penloc2-econ-gast-abierta" name="penloc2010-PGASTA" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="penloc2-econ-gast-abierta:FilasDimension" inputID="penloc2-econ-gast-abierta_CodigoDeCuenta" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-abierta" nsPrefix="penloc2-econ-gast-abierta" outputID="CodigoDeCuenta">
+        <member id="penloc2-econ-gast-abierta_FilasTipoDeDimension" qname="penloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-econ-gast-abierta:FilasDimension" inputID="penloc2-econ-gast-abierta_Descripcion" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-abierta" nsPrefix="penloc2-econ-gast-abierta" outputID="Descripcion">
+        <member id="penloc2-econ-gast-abierta_FilasTipoDeDimension" qname="penloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-econ-gast-abierta:FilasDimension" inputID="penloc2-econ-gast-importes_PrevisionInicial" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-importes" nsPrefix="penloc2-econ-gast-importes" outputID="PrevisionInicial">
+        <member id="penloc2-econ-gast-abierta_FilasTipoDeDimension" qname="penloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+</statement>

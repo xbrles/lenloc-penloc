@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo1" mainSchemaPrefix="lenloc2-anexo1" name="lenloc2010-A1" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo1:Conceptosdimension" inputID="lenloc2-anexo1_ObligacionesReconocidas" ns="http://www.meh.es/taxonomias/lenloc2-anexo1" nsPrefix="lenloc2-anexo1" outputID="ObligacionesReconocidas">
+		<member id="A1.1" qname="lenloc2-anexo1:InteresesDeDeudaPublica"/>
+		<member id="A1.2" qname="lenloc2-anexo1:InteresesDePrestamosYOtrasOperacionesFinancieras"/>
+		<member id="A1.3" qname="lenloc2-anexo1:InteresesDeDepositosYFianzas"/>
+		<member id="A1.4" qname="lenloc2-anexo1:OtrosIntereses"/>
+		<member id="A1.5" qname="lenloc2-anexo1:OperacionesDeIntercambioFinanciero"/>
+		<member id="A1.6" qname="lenloc2-anexo1:GastosDeFormalizacionEmisionModificacionYCancelacion"/>
+		<member id="A1.7" qname="lenloc2-anexo1:DiferenciasDeCambio"/>
+		<member id="A1.8" qname="lenloc2-anexo1:OtrosGastosFinancieros"/>
+		<member id="lenloc2-anexo1_Total" qname="lenloc2-anexo1:Total"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo1:Conceptosdimension" inputID="lenloc2-anexo1_InteresesDevengados" ns="http://www.meh.es/taxonomias/lenloc2-anexo1" nsPrefix="lenloc2-anexo1" outputID="InteresesDevengados">
+		<member id="A1.1" qname="lenloc2-anexo1:InteresesDeDeudaPublica"/>
+		<member id="A1.2" qname="lenloc2-anexo1:InteresesDePrestamosYOtrasOperacionesFinancieras"/>
+		<member id="A1.3" qname="lenloc2-anexo1:InteresesDeDepositosYFianzas"/>
+		<member id="A1.4" qname="lenloc2-anexo1:OtrosIntereses"/>
+		<member id="A1.5" qname="lenloc2-anexo1:OperacionesDeIntercambioFinanciero"/>
+		<member id="A1.6" qname="lenloc2-anexo1:GastosDeFormalizacionEmisionModificacionYCancelacion"/>
+		<member id="A1.7" qname="lenloc2-anexo1:DiferenciasDeCambio"/>
+		<member id="A1.8" qname="lenloc2-anexo1:OtrosGastosFinancieros"/>
+		<member id="lenloc2-anexo1_Total" qname="lenloc2-anexo1:Total"/>
+	</conceptMap>
+</statement>

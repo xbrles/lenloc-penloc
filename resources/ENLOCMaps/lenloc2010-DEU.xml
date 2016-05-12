@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-onp" mainSchemaPrefix="lenloc2-onp" name="lenloc2010-DEU" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:DeudoresPagosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_DeudoresPagosPendientesAplicacionSaldoRectificaciones" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="DeudoresPagosPendientesAplicacionSaldoRectificaciones">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_DeudoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:DeudoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionPagos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionPagos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:DeudoresPagosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_DeudoresPagosPendientesAplicacionPagosEfectuados" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="DeudoresPagosPendientesAplicacionPagosEfectuados">
+		<!--Todos los member son diemnsion-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_DeudoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:DeudoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionPagos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionPagos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:DeudoresPagosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_DeudoresPagosPendientesAplicacionTotalCargo" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="DeudoresPagosPendientesAplicacionTotalCargo">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_DeudoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:DeudoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionPagos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionPagos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc-onp:DeudoresPagosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_DeudoresPagosPendientesAplicacionDataIngreso" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="DeudoresPagosPendientesAplicacionDataIngreso">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_DeudoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:DeudoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionPagos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionPagos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:DeudoresPagosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_DeudoresPagosPendientesAplicacionSaldoPendiente" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="DeudoresPagosPendientesAplicacionSaldoPendiente">
+		<!--Todos los member son dimensio-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_DeudoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:DeudoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionPagos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionPagos"/>
+	</conceptMap>
+</statement>

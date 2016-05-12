@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-remt" mainSchemaPrefix="lenloc2-remt" name="lenloc2010-RT" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-remt:FilasdeRemanentedeTesoreriadimension" inputID="lenloc2-remt_ImporteEjercicioActual" ns="http://www.meh.es/taxonomias/lenloc2-remt" nsPrefix="lenloc2-remt" outputID="ImporteEjercicioActual">
+		<!--El primer member es un dimension-domain y no un domain-member como el resto. Hay que averiguar si se reporta o no-->
+		<member id="R79t" qname="lenloc2-remt:RemanenteDeTesoreriaParaGastosGeneralesAjustado"/>
+		<member id="R69t" qname="lenloc2-remt:SaldoDeObligacionesPorDevolucionDeIngresosPendientesDeAplicarAlPresupuestoA31DeDiciembre"/>
+		<member id="R59t" qname="lenloc2-remt:SaldoDeObligacionesPendientesDeAplicarAlPresupuestoA31DeDiciembre"/>
+		<member id="R49t" qname="lenloc2-remt:RemanenteDeTesoreriaParaGastosGenerales"/>
+		<member id="R39t" qname="lenloc2-remt:RemanenteDeTesoreria"/>
+		<member id="R29t" qname="lenloc2-remt:FondosLiquidos"/>
+		<member id="R09t" qname="lenloc2-remt:TotalDerechosPendientesDeCobro"/>
+		<member id="R01" qname="lenloc2-remt:DerechosPendientesDeCobro_DelPresupuestoCorriente"/>
+		<member id="R02" qname="lenloc2-remt:DerechosPendientesDeCobro_DePresupuestosCerrados"/>
+		<member id="R04" qname="lenloc2-remt:DerechosPendientesDeCobro_DeOtrasOperacionesNoPresupuestarias"/>
+		<member id="R06" qname="lenloc2-remt:DerechosPendientesDeCobro_CobrosRealizadosPendientesDeAplicacionDefinitiva"/>
+		<member id="R19" qname="lenloc2-remt:TotalObligacionesPendientesDePago"/>
+		<member id="R11" qname="lenloc2-remt:ObligacionesPendientesDePago_DelPresupuestoCorriente"/>
+		<member id="R12" qname="lenloc2-remt:ObligacionesPendientesDePago_DelPresupuestoCerrados"/>
+		<member id="R15" qname="lenloc2-remt:ObligacionesPendientesDePago_DeOperacionesNoPresupuestarias"/>
+		<member id="R16" qname="lenloc2-remt:ObligacionesPendientesDePago_PagosRealizadosPendientesDeAplicacionDefinitiva"/>
+		<member id="R41" qname="lenloc2-remt:SaldosDeDudosoCobro"/>
+		<member id="R42" qname="lenloc2-remt:ExcesoDeFinanciacionAfectada"/>
+	</conceptMap>
+</statement>

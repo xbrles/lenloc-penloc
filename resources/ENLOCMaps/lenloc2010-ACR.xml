@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-onp" mainSchemaPrefix="lenloc2-onp" name="lenloc2010-ACR" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:AcreedoresIngresosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_AcreedoresIngresosPendientesAplicacionSaldoRectificaciones" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="AcreedoresIngresosPendientesAplicacionSaldoRectificaciones">
+		<!--Todos los member son dimension-domain y no domain-member como deberían ser-->
+		<member id="lenloc2-onp-deudores-acreedores_AcreedoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:AcreedoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionIngresos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionIngresos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:AcreedoresIngresosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_AcreedoresIngresosPendientesAplicacionIngresosEfectuados" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="AcreedoresIngresosPendientesAplicacionIngresosEfectuados">
+		<!--Todos los member son dimension-domain y no domain-member como deberían ser-->
+		<member id="lenloc2-onp-deudores-acreedores_AcreedoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:AcreedoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionIngresos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionIngresos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:AcreedoresIngresosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_AcreedoresIngresosPendientesAplicacionTotalData" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="AcreedoresIngresosPendientesAplicacionTotalData">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_AcreedoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:AcreedoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionIngresos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionIngresos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:AcreedoresIngresosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_AcreedoresIngresosPendientesAplicacionCargosPagos" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="AcreedoresIngresosPendientesAplicacionCargosPagos">
+		<!--Todos los member son dimension-domainy no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_AcreedoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:AcreedoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionIngresos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionIngresos"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-onp:AcreedoresIngresosPendientesAplicacionDimension" inputID="lenloc2-onp-importes_AcreedoresIngresosPendientesAplicacionSaldoPendiente" ns="http://www.meh.es/taxonomias/lenloc2-onp-importes" nsPrefix="lenloc2-onp-importes" outputID="AcreedoresIngresosPendientesAplicacionSaldoPendiente">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-onp-deudores-acreedores_AcreedoresNoPresupuestarios" qname="lenloc2-onp-deudores-acreedores:AcreedoresNoPresupuestarios"/>
+		<member id="lenloc2-onp-deudores-acreedores_PartidasPendientesAplicacionIngresos" qname="lenloc2-onp-deudores-acreedores:PartidasPendientesAplicacionIngresos"/>
+	</conceptMap>
+</statement>

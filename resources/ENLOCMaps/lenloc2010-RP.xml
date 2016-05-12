@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-resultp" mainSchemaPrefix="lenloc2-resultp" name="lenloc2010-RP" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+    <conceptMap containerDimensionType="segment" domain="lenloc2-resultp:ConceptosdelresultadopresupuestarioDimension" inputID="RP.C1" ns="http://www.meh.es/taxonomias/lenloc2-resultp" nsPrefix="lenloc2-resultp" outputID="DerechosReconocidosNetosC1">
+        <member id="RP.A" qname="lenloc2-resultp:AResultadoPresupuestarioDelEjercicioC1-C2"/>
+        <member id="RP.1" qname="lenloc2-resultp:TotalOperacionesNoFinancierasAB"/>
+        <member id="RP.1.a" qname="lenloc2-resultp:AOperacionesCorrientes"/>
+        <member id="RP.1.b" qname="lenloc2-resultp:BOtrasOperacionesNoFinancieras"/>
+        <member id="RP.2" qname="lenloc2-resultp:ActivosFinancieros"/>
+        <member id="RP.3" qname="lenloc2-resultp:PasivosFinancieros"/>
+    </conceptMap>
+    <conceptMap containerDimensionType="segment" domain="lenloc2-resultp:ConceptosdelresultadopresupuestarioDimension" inputID="RP.C2" ns="http://www.meh.es/taxonomias/lenloc2-resultp" nsPrefix="lenloc2-resultp" outputID="ObligacionesReconocidasNetasC2">
+        <member id="RP.A" qname="lenloc2-resultp:AResultadoPresupuestarioDelEjercicioC1-C2"/>
+        <member id="RP.1" qname="lenloc2-resultp:TotalOperacionesNoFinancierasAB"/>
+        <member id="RP.1.a" qname="lenloc2-resultp:AOperacionesCorrientes"/>
+        <member id="RP.1.b" qname="lenloc2-resultp:BOtrasOperacionesNoFinancieras"/>
+        <member id="RP.2" qname="lenloc2-resultp:ActivosFinancieros"/>
+        <member id="RP.3" qname="lenloc2-resultp:PasivosFinancieros"/>
+    </conceptMap>
+    <conceptMap containerDimensionType="segment" domain="lenloc2-resultp:ConceptosdelresultadopresupuestarioDimension" inputID="RP.C3" ns="http://www.meh.es/taxonomias/lenloc2-resultp" nsPrefix="lenloc2-resultp" outputID="ResultadoPresupuestarioC3">
+        <member id="RP.A" qname="lenloc2-resultp:AResultadoPresupuestarioDelEjercicioC1-C2"/>
+        <member id="RP.1" qname="lenloc2-resultp:TotalOperacionesNoFinancierasAB"/>
+        <member id="RP.1.a" qname="lenloc2-resultp:AOperacionesCorrientes"/>
+        <member id="RP.1.b" qname="lenloc2-resultp:BOtrasOperacionesNoFinancieras"/>
+        <member id="RP.2" qname="lenloc2-resultp:ActivosFinancieros"/>
+        <member id="RP.3" qname="lenloc2-resultp:PasivosFinancieros"/>
+    </conceptMap>
+</statement>

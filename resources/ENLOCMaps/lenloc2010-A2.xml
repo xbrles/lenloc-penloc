@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo2" mainSchemaPrefix="lenloc2-anexo2" name="lenloc2010-A2" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo2:Conceptosdimension" inputID="lenloc2-anexo2_ImporteAnexo2" ns="http://www.meh.es/taxonomias/lenloc2-anexo2" nsPrefix="lenloc2-anexo2" outputID="ImporteAnexo2">
+		<!--Todos los member son dimension-domain y no domain-member-->
+		<member id="lenloc2-anexo2_SaldoVivoA1DeEnero" qname="lenloc2-anexo2:SaldoVivoA1DeEnero"/>
+		<member id="lenloc2-anexo2_CapitalesRecibidos" qname="lenloc2-anexo2:CapitalesRecibidos"/>
+		<member id="lenloc2-anexo2_CapitalesAmortizados" qname="lenloc2-anexo2:CapitalesAmortizados"/>
+		<member id="lenloc2-anexo2_VariacionNeta" qname="lenloc2-anexo2:VariacionNeta"/>
+		<member id="lenloc2-anexo2_SaldoVivoA31DeDiciembre" qname="lenloc2-anexo2:SaldoVivoA31DeDiciembre"/>
+	</conceptMap>
+</statement>

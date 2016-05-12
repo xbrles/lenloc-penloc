@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo5" mainSchemaPrefix="lenloc2-anexo5" name="lenloc2010-A5" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_EntidadesReceptoras" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="EntidadesReceptoras">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_NIF" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="NIF">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_Capitulo2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="Capitulo2">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_Capitulo4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="Capitulo4">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_Capitulo6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="Capitulo6">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_Capitulo7" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="Capitulo7">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo5:Filasdimension" inputID="lenloc2-anexo5_Capitulo8" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo5" nsPrefix="lenloc2-anexo5" outputID="Capitulo8">
+		<member id="lenloc2-anexo5_FilasTipoDeDimension" qname="lenloc2-anexo5:FilasTipoDeDimension"/>
+	</conceptMap>
+</statement>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2" mainSchemaPrefix="lenloc2" name="lenloc2010-DI" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap abstract="true" inputID="lenloc2_identificacion_empresa" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="identificacion_empresa"/>
+	<conceptMap abstract="false" inputID="lenloc2_nombre_empresa" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="nombre_empresa"/>
+	<conceptMap abstract="true" inputID="lenloc2_identificacion_ente" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="identificacion_ente"/>
+	<conceptMap abstract="false" inputID="lenloc2_cdcorp" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="cdcorp"/>
+	<conceptMap abstract="false" inputID="lenloc2_cdprov" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="cdprov"/>
+	<conceptMap abstract="false" inputID="lenloc2_tiporg1" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="tiporg1"/>
+	<conceptMap abstract="false" inputID="lenloc2_tiporg2" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="tiporg2"/>
+	<conceptMap abstract="false" inputID="lenloc2_tiporg3" ns="http://www.meh.es/taxonomias/lenloc2" nsPrefix="lenloc2" outputID="tiporg3"/>
+</statement>

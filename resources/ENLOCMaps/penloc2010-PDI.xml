@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/penloc2" mainSchemaPrefix="penloc2" name="penloc2010-PDI" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+    <conceptMap abstract="false" inputID="penloc2-ord_nombre_empresa" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="nombre_empresa"/>
+    <conceptMap abstract="false" inputID="penloc2-ord_cdcorp" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="cdcorp"/>
+    <conceptMap abstract="false" inputID="penloc2-ord_cdprov" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="cdprov"/>
+    <conceptMap abstract="false" inputID="penloc2-ord_tiporg1" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="tiporg1"/>
+    <conceptMap abstract="false" inputID="penloc2-ord_tiporg2" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="tiporg2"/>
+    <conceptMap abstract="false" inputID="penloc2-ord_tiporgr3" ns="http://www.meh.es/taxonomias/penloc2-ord" nsPrefix="penloc2-ord" outputID="tiporgr3"/>
+</statement>

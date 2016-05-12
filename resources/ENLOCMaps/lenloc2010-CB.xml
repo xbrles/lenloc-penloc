@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-exist" mainSchemaPrefix="lenloc2-exist" name="lenloc2010-CB" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-exist:FilasdeExistenciasenCajayBancosdimension" inputID="lenloc2-exist_ImporteExistenciasEnCajaYBancos" ns="http://www.meh.es/taxonomias/lenloc2-exist" nsPrefix="lenloc2-exist" outputID="ImporteExistenciasEnCajaYBancos">
+		<!--Todos los member son dimension-domain y no un domain-member Hay que averiguar si se reportan o no-->
+		<member id="lenloc2-exist_ExistenciasInicialesEnCajaYBancos" qname="lenloc2-exist:ExistenciasInicialesEnCajaYBancos"/>
+		<member id="lenloc2-exist_IngresosDelPresupuestoCorrienteDeLosPresupuestosCerradosYDeLasOperacionesNoPresupuestarias" qname="lenloc2-exist:IngresosDelPresupuestoCorrienteDeLosPresupuestosCerradosYDeLasOperacionesNoPresupuestarias"/>
+		<member id="lenloc2-exist_PagosDelPresupuestoCorrienteDeLosPresupuestosCerradosYDeLasOperacionesNoPresupuestarias" qname="lenloc2-exist:PagosDelPresupuestoCorrienteDeLosPresupuestosCerradosYDeLasOperacionesNoPresupuestarias"/>
+		<member id="lenloc2-exist_ExistenciasFinalesEnCajaYBancos" qname="lenloc2-exist:ExistenciasFinalesEnCajaYBancos"/>
+	</conceptMap>
+</statement>

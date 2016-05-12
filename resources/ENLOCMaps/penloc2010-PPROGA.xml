@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/penloc2-prog-abierta" mainSchemaPrefix="penloc2-prog-abierta" name="lenloc2010-PPROGA" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-prog-abierta_CodigoDeCuenta" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-prog-abierta" nsPrefix="penloc2-prog-abierta" outputID="CodigoDeCuenta">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-prog-abierta_Descripcion" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-prog-abierta" nsPrefix="penloc2-prog-abierta" outputID="Descripcion">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_1" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="GastosDePersonal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="GastosCorrientesEnBienesYServicios">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_3" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="GastosFinancieros">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.0" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_ALaAdministracionGeneralDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.1" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AOrganismosAutonomosDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_ALaAdministracionDelEstado">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.3" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_ALaSeguridadSocial">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntesPublicosYSociedadesMercantilesDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.5" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AComunidadesAutonomas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+		<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.1" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="ADiputacionesConsejosOCabildosInsulares">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AAyuntamientos">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.3" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AMancomunidades">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AAreasMetropolitanas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.5" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AComarcas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="AOtrasEntidadesQueAgrupenMunicipios">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.7" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AConsorcios">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_4.6.8" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasCorrientes_AEntidadesLocales_AEntidadesLocalesMenores">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="InversionesReales">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="EconomicaGastos_TransferenciasDeCapital">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.0" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_ALaAdministracionGeneralDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.1" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AOrganismosAutonomosDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_ALaAdministracionDelEstado">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.3" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_ALaSeguridadSocial">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntesPublicosYSociedadesMercantilesDeLaEntidadLocal">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.5" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AComunidadesAutonomas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.1" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="ADiputacionesConsejosOCabildos">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.2" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AAyuntamientos">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.3" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AMancomunidades">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.4" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AAreasMetropolitanas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.5" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AComarcas">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.6" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="AEntidadesQueAgrupenMunicipios">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.7" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AConsorcios">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_7.6.8" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="TransferenciasDeCapital_AEntidadesLocales_AEntidadesLocalesMenores">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_8" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="EconomicaGastos_ActivosFinancieros">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="penloc2-prog-abierta:FilasDimension" inputID="penloc2-dimensiones_PPROGA_9" isTypedDimension="true" ns="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas" nsPrefix="penloc2-econ-gast-cuentas" outputID="EconomicaGastos_PasivosFinancieros">
+        <member id="penloc2-prog-abierta_FilasTipoDeDimension" qname="penloc2-prog-abierta:FilasTipoDeDimension"/>		
+    </conceptMap>
+</statement>

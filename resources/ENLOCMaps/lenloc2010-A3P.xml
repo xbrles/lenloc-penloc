@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo3" mainSchemaPrefix="lenloc2-anexo3" name="lenloc2010-A3P" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo3:Cuentasinteresespagadosdimension" inputID="lenloc2-anexo3_ObligacionesReconocidasNetas" ns="http://www.meh.es/taxonomias/lenloc2-anexo3" nsPrefix="lenloc2-anexo3" outputID="ObligacionesReconocidasNetas">
+		<!--El primer member es un dimension-domain y no un domain_member-->
+		<member id="lenloc2-anexo3_InteresesPagadosdevengadosAOtrasAdministracionesPublicas" qname="lenloc2-anexo3:InteresesPagadosdevengadosAOtrasAdministracionesPublicas"/>
+		<member id="lenloc2-anexo3_AlEstadoYASusOrganismos" qname="lenloc2-anexo3:AlEstadoYASusOrganismos"/>
+		<member id="lenloc2-anexo3_ALaSeguridadSocial" qname="lenloc2-anexo3:ALaSeguridadSocial"/>
+		<member id="lenloc2-anexo3_ALasComunidadesAutonomas" qname="lenloc2-anexo3:ALasComunidadesAutonomas"/>
+		<member id="lenloc2-anexo3_AOtrasCorporacionesLocales" qname="lenloc2-anexo3:AOtrasCorporacionesLocales"/>
+		<member id="lenloc2-anexo3_Resto" qname="lenloc2-anexo3:Resto"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo3:Cuentasinteresespagadosdimension" inputID="lenloc2-anexo3_InteresesPagados_InteresesDevengados" ns="http://www.meh.es/taxonomias/lenloc2-anexo3" nsPrefix="lenloc2-anexo3" outputID="InteresesPagados_InteresesDevengados">
+		<member id="lenloc2-anexo3_InteresesPagadosdevengadosAOtrasAdministracionesPublicas" qname="lenloc2-anexo3:InteresesPagadosdevengadosAOtrasAdministracionesPublicas"/>
+		<member id="lenloc2-anexo3_AlEstadoYASusOrganismos" qname="lenloc2-anexo3:AlEstadoYASusOrganismos"/>
+		<member id="lenloc2-anexo3_ALaSeguridadSocial" qname="lenloc2-anexo3:ALaSeguridadSocial"/>
+		<member id="lenloc2-anexo3_ALasComunidadesAutonomas" qname="lenloc2-anexo3:ALasComunidadesAutonomas"/>
+		<member id="lenloc2-anexo3_AOtrasCorporacionesLocales" qname="lenloc2-anexo3:AOtrasCorporacionesLocales"/>
+		<member id="lenloc2-anexo3_Resto" qname="lenloc2-anexo3:Resto"/>
+	</conceptMap>
+</statement>

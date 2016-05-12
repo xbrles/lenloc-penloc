@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-econ-gast-abierta" mainSchemaPrefix="lenloc2-econ-gast-abierta" name="lenloc2010-GASTA" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-abierta_CodigoDeCuenta" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-abierta" nsPrefix="lenloc2-econ-gast-abierta" outputID="CodigoDeCuenta">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-abierta_Descripcion" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-abierta" nsPrefix="lenloc2-econ-gast-abierta" outputID="Descripcion">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-importes_CreditosDefinitivosDelEjercicioCorriente" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes" nsPrefix="lenloc2-econ-gast-importes" outputID="CreditosDefinitivosDelEjercicioCorriente">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-importes_ObligacionesReconocidasDelEjercicioCorriente" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes" nsPrefix="lenloc2-econ-gast-importes" outputID="ObligacionesReconocidasDelEjercicioCorriente">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-importes_PagosRealizadosDelEjercicioCorriente" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes" nsPrefix="lenloc2-econ-gast-importes" outputID="PagosRealizadosDelEjercicioCorriente">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-econ-gast-abierta:FilasDimension" isTypedDimension="true"  inputID="lenloc2-econ-gast-importes_PagosLiquidosDeEjerciciosCerrados" ns="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes" nsPrefix="lenloc2-econ-gast-importes" outputID="PagosLiquidosDeEjerciciosCerrados">
+        <member id="lenloc2-econ-gast-abierta_FilasTipoDeDimension" qname="lenloc2-econ-gast-abierta:FilasTipoDeDimension"/>	
+    </conceptMap>
+</statement>

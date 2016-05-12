@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo3" mainSchemaPrefix="lenloc2-anexo3" name="lenloc2010-A3R" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo3:Cuentasinteresesrecibidosdimension" inputID="lenloc2-anexo3_DerechosReconocidosNetos" ns="http://www.meh.es/taxonomias/lenloc2-anexo3" nsPrefix="lenloc2-anexo3" outputID="DerechosReconocidosNetos">
+		<!--El primer member es un dimension-domain y no un domain-member-->
+		<member id="lenloc2-anexo3_InteresesRecibidosdevengadosDeOtrasAdministracionesPublicas" qname="lenloc2-anexo3:InteresesRecibidosdevengadosDeOtrasAdministracionesPublicas"/>
+		<member id="lenloc2-anexo3_DelEstadoYSusOrganismos" qname="lenloc2-anexo3:DelEstadoYSusOrganismos"/>
+		<member id="lenloc2-anexo3_DeLaSeguridadSocial" qname="lenloc2-anexo3:DeLaSeguridadSocial"/>
+		<member id="lenloc2-anexo3_DeLasComunidadesAutonomas" qname="lenloc2-anexo3:DeLasComunidadesAutonomas"/>
+		<member id="lenloc2-anexo3_DeOtrasCorporacionesLocales" qname="lenloc2-anexo3:DeOtrasCorporacionesLocales"/>
+		<member id="lenloc2-anexo3_InteresesDevengados_Resto" qname="lenloc2-anexo3:InteresesDevengados_Resto"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo3:Cuentasinteresesrecibidosdimension" inputID="lenloc2-anexo3_InteresesDevengados_InteresesDevengados" ns="http://www.meh.es/taxonomias/lenloc2-anexo3" nsPrefix="lenloc2-anexo3" outputID="InteresesDevengados_InteresesDevengados">
+		<member id="lenloc2-anexo3_InteresesRecibidosdevengadosDeOtrasAdministracionesPublicas" qname="lenloc2-anexo3:InteresesRecibidosdevengadosDeOtrasAdministracionesPublicas"/>
+		<member id="lenloc2-anexo3_DelEstadoYSusOrganismos" qname="lenloc2-anexo3:DelEstadoYSusOrganismos"/>
+		<member id="lenloc2-anexo3_DeLaSeguridadSocial" qname="lenloc2-anexo3:DeLaSeguridadSocial"/>
+		<member id="lenloc2-anexo3_DeLasComunidadesAutonomas" qname="lenloc2-anexo3:DeLasComunidadesAutonomas"/>
+		<member id="lenloc2-anexo3_DeOtrasCorporacionesLocales" qname="lenloc2-anexo3:DeOtrasCorporacionesLocales"/>
+		<member id="lenloc2-anexo3_InteresesDevengados_Resto" qname="lenloc2-anexo3:InteresesDevengados_Resto"/>
+	</conceptMap>
+</statement>

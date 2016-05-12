@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statement mainSchemaNamespace="http://www.meh.es/taxonomias/lenloc2-anexo4" mainSchemaPrefix="lenloc2-anexo4" name="lenloc2010-A4ECNP" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/map D:\proyectos\inteco\workspace\inteco_api_xbrl\config\schemas\lenlocpenloc2010-map.xsd">
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosDimensionDeFilas" inputID="lenloc2-anexo4_Codigo" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo4" nsPrefix="lenloc2-anexo4" outputID="Codigo">
+		<member id="lenloc2-anexo4_AvalesEjecutadosConceptosNoPresupuestariosFila" qname="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosFila"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosDimensionDeFilas" inputID="lenloc2-anexo4_Descripcion" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo4" nsPrefix="lenloc2-anexo4" outputID="Descripcion">
+		<member id="lenloc2-anexo4_AvalesEjecutadosConceptosNoPresupuestariosFila" qname="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosFila"/>
+	</conceptMap>
+	<conceptMap containerDimensionType="segment" domain="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosDimensionDeFilas" inputID="lenloc2-anexo4_Pagos" isTypedDimension="true" ns="http://www.meh.es/taxonomias/lenloc2-anexo4" nsPrefix="lenloc2-anexo4" outputID="Pagos">
+		<member id="lenloc2-anexo4_AvalesEjecutadosConceptosNoPresupuestariosFila" qname="lenloc2-anexo4:AvalesEjecutadosConceptosNoPresupuestariosFila"/>
+	</conceptMap>
+</statement>
