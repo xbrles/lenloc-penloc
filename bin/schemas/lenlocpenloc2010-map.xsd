@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/map" targetNamespace="http://www.inteco.es/xbrl/lenlocpenloc2010/map" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:annotation>
+		<xs:documentation>El XML Schema para el archivo que contiene las asignaciones de código a XBRL elemento.</xs:documentation>
+	</xs:annotation>
+	<xs:element name="statement">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="conceptMap" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="mainSchemaURL" type="xs:anyURI"/>
+			<xs:attribute name="mainSchemaPrefix" type="xs:string"/>
+			<xs:attribute name="mainSchemaNamespace" type="xs:anyURI"/>
+			<xs:attribute name="statementID" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Para uso en la creación de nombres de archivo</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="moduleName" type="xs:string"/>
+			<xs:attribute name="moduleTitle" type="xs:string"/>
+			<xs:attribute name="roleURI" type="xs:anyURI"/>
+			<xs:attribute name="roleID" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="conceptMap">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="member" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attributeGroup ref="conceptAttributes"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="member">
+		<xs:complexType>
+			<xs:attribute name="id" type="xs:string"/>
+			<xs:attribute name="qname" type="xs:string"/>
+			<xs:attribute name="value" type="xs:string" use="optional"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:attributeGroup name="conceptAttributes">
+		<xs:attribute name="outputID" type="xs:string">
+			<xs:annotation>
+				<xs:documentation>El nombre del tema XBRL</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="inputID" type="xs:string" use="required">
+			<xs:annotation>
+				<xs:documentation>El codigo Español.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="ns" type="xs:anyURI" use="required"/>
+		<xs:attribute name="nsPrefix" type="xs:string" use="required"/>
+		<xs:attribute name="domain" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Nombre de la dimensión</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="containerDimensionType" type="containerDimensionTypeType" use="optional">
+			<xs:annotation>
+				<xs:documentation>Tipo de contenedor para los miembros de la dimension en el contexto, segment o scenario</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="isTypedDimension" type="xs:boolean" use="optional">
+			<xs:annotation>
+				<xs:documentation>Especifica si el tipo de dimension es typed. Si no aparece, la dimensión es explícita</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="parent" type="xs:string" use="optional"/>
+		<xs:attribute name="order" type="xs:decimal" use="optional"/>
+		<xs:attribute name="abstract" type="xs:boolean" use="optional"/>
+	</xs:attributeGroup>
+	<xs:simpleType name="containerDimensionTypeType" id="containerDimensionTypeType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="segment"/>
+			<xs:enumeration value="scenario"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

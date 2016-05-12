@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:p0="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/penloc2-econ-gast/EconomicaGastos" xlink:type="simple" xlink:href="penloc2-econ-gast-cuentas.xsd#RT_1"/>
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas/EconomicaGastos" xlink:type="simple" xlink:href="penloc2-econ-gast-cuentas.xsd#RT_2"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.meh.es/taxonomias/penloc2-econ-gast/EconomicaGastos">
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast-importes.xsd#penloc2-econ-gast-importes_ImportesDeEconomicaDeGastos" xlink:label="ImportesDeEconomicaDeGastos" xlink:title="ImportesDeEconomicaDeGastos"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast-importes.xsd#penloc2-econ-gast-importes_PrevisionInicial" xlink:label="PrevisionInicial" xlink:title="CreditosDefinitivosDelEjercicioCorriente"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ImportesDeEconomicaDeGastos" xlink:to="PrevisionInicial" xlink:title="definition: ImportesDeEconomicaDeGastos to PrevisionInicial" use="optional" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast.xsd#penloc2-econ-gast_Cuentashipercubo" xlink:label="Cuentashipercubo" xlink:title="Cuentashipercubo"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ImportesDeEconomicaDeGastos" xlink:to="Cuentashipercubo" xlink:title="definition: ImportesDeEconomicaDeGastos to Cuentashipercubo" order="5.0" p0:contextElement="segment"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast.xsd#penloc2-econ-gast_Cuentasdimension" xlink:label="Cuentasdimension" xlink:title="Cuentasdimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Cuentashipercubo" xlink:to="Cuentasdimension" xlink:title="definition: Cuentashipercubo to Cuentasdimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast-cuentas.xsd#penloc2_EconomicaGastos" xlink:label="EconomicaGastos" xlink:title="EconomicaGastos"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="Cuentasdimension" xlink:to="EconomicaGastos" xlink:title="definition: Cuentasdimension to EconomicaGastos" order="1.0" p0:targetRole="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas/EconomicaGastos"/>
+  </link:definitionLink>
+</link:linkbase>

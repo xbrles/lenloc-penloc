@@ -1,0 +1,4 @@
+#Tue Dec 09 15:23:29 CET 2008
+es.inteco.xbrl.lenlocpenloc.errors.out.ENLOCErrorsOutput=es.inteco.xbrl.lenlocpenloc.errors.out.descriptors.ENLOCErrorsOutputDescriptor
+es.inteco.xbrl.lenlocpenloc.errors.out.ENLOCErrorParameter=es.inteco.xbrl.lenlocpenloc.errors.out.descriptors.ENLOCErrorParameterDescriptor
+es.inteco.xbrl.lenlocpenloc.errors.out.ENLOCErrorOut=es.inteco.xbrl.lenlocpenloc.errors.out.descriptors.ENLOCErrorOutDescriptor

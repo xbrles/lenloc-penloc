@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="penloc2-prog.xsd#penloc2-prog_Cuentasdimension" xlink:label="Cuentasdimension" xlink:title="Cuentasdimension"/>
+    <link:label xlink:type="resource" xlink:label="label_Cuentasdimension" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Cuentasdimension" xml:lang="es" id="label_Cuentasdimension">Cuentas (dimensión)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Cuentasdimension" xlink:to="label_Cuentasdimension" xlink:title="label: Cuentasdimension to label_Cuentasdimension"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-prog.xsd#penloc2-prog_Cuentashipercubo" xlink:label="Cuentashipercubo" xlink:title="Cuentashipercubo"/>
+    <link:label xlink:type="resource" xlink:label="label_Cuentashipercubo" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Cuentashipercubo" xml:lang="es" id="label_Cuentashipercubo">Cuentas (hipercubo)</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Cuentashipercubo" xlink:to="label_Cuentashipercubo" xlink:title="label: Cuentashipercubo to label_Cuentashipercubo"/>
+  </link:labelLink>
+</link:linkbase>

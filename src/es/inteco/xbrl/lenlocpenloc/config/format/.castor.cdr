@@ -1,0 +1,9 @@
+#Wed Nov 26 15:53:29 CET 2008
+es.inteco.xbrl.lenlocpenloc.transform.format.Table=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.TableDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Module=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.ModuleDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Note=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.NoteDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Item=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.ItemDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Entity=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.EntityDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Row=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.RowDescriptor
+#es.inteco.xbrl.lenlocpenloc.transform.format.Record=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.RecordDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.format.Report=es.inteco.xbrl.lenlocpenloc.transform.format.descriptors.ReportDescriptor

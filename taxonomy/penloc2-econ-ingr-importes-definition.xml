@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/penloc2-econ-ingr-importes/Importes" xlink:type="simple" xlink:href="penloc2-econ-ingr-importes.xsd#RT_1"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.meh.es/taxonomias/penloc2-econ-ingr-importes/Importes">
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-ingr-importes.xsd#penloc2-econ-ingr-importes_ImportesDeEconomicaDeIngresos" xlink:label="Importes" xlink:title="Importes"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-ingr-importes.xsd#penloc2-econ-ingr-importes_PrevisionInicial" xlink:label="PrevisionDefinivaDelEjercicioCorriente" xlink:title="PrevisionDefinivaDelEjercicioCorriente"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="Importes" xlink:to="PrevisionDefinivaDelEjercicioCorriente" xlink:title="definition: Importes to PrevisionDefinivaDelEjercicioCorriente" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

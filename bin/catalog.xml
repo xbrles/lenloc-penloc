@@ -1,0 +1,43 @@
+<!DOCTYPE catalog
+  PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN"
+         "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"  prefer="public">
+	<group>
+		 <rewriteSystem systemIdStartString="http://www.inteco.es/xbrl/lenlocpenloc2010/interfazES" rewritePrefix="schemas"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2/lenloc2.xsd"  uri="lenloc2.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/lenloc2-anexo1/lenloc2-anexo1.xsd"  uri="lenloc2-anexo1.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-anexo2/lenloc2-anexo2.xsd"  uri="lenloc2-anexo2.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-anexo3/lenloc2-anexo3.xsd"  uri="lenloc2-anexo3.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-anexo4/lenloc2-anexo4.xsd"  uri="lenloc2-anexo4.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-anexo5/lenloc2-anexo5.xsd"  uri="lenloc2-anexo5.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-gast-cuentas/lenloc2-econ-gast-cuentas.xsd"  uri="lenloc2-econ-gast-cuentas.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes/lenloc2-econ-gast-importes.xsd"  uri="lenloc2-econ-gast-importes.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-gast/lenloc2-econ-gast.xsd"  uri="lenloc2-econ-gast.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-ingr-cuentas/lenloc2-econ-ingr-cuentas.xsd"  uri="lenloc2-econ-ingr-cuentas.xsd"/>
+	   <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-ingr-importes/lenloc2-econ-ingr-importes.xsd"  uri="lenloc2-econ-ingr-importes.xsd"/>
+	   <system systemId="http://www.meh.es/taxonomias/lenloc2-econ-ingr/lenloc2-econ-ingr.xsd"  uri="lenloc2-econ-ingr.xsd"/>
+	   <system systemId="http://www.meh.es/taxonomias/lenloc2-exist/lenloc2-exist.xsd"  uri="lenloc2-exist.xsd"/>
+	   
+		 <system systemId="http://www.meh.es/taxonomias/lenloc2-onp-deudores-acreedores/lenloc2-onp-deudores-acreedores.xsd"  uri="lenloc2-onp-deudores-acreedores.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-onp-importes/lenloc2-onp-importes.xsd"  uri="lenloc2-onp-importes.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-onp/lenloc2-onp.xsd"  uri="lenloc2-onp.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-prog-cuentas-econ-cruzadas/lenloc2-prog-cuentas-econ-cruzadas.xsd"  uri="lenloc2-prog-cuentas-econ-cruzadas.xsd"/>
+
+		 <system systemId="http://www.meh.es/taxonomias/lenloc2-prog-cuentas/lenloc2-prog-cuentas.xsd"  uri="lenloc2-prog-cuentas.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-prog/lenloc2-prog.xsd"  uri="lenloc2-prog.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-remt/lenloc2-remt.xsd"  uri="lenloc2-remt.xsd"/>
+ 		 <system systemId="http://www.meh.es/taxonomias/lenloc2-resultp/lenloc2-resultp.xsd"  uri="lenloc2-resultp.xsd"/>
+
+     <system systemId="http://www.meh.es/taxonomias/penloc2-ord/penloc2.xsd"  uri="penloc2.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-gast/penloc2-econ-gast.xsd"  uri="penloc2-econ-gast.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas/penloc2-econ-gast-cuentas.xsd"  uri="penloc2-econ-gast-cuentas.xsd"/>	
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-gast-importes/penloc2-econ-gast-importes.xsd"  uri="penloc2-econ-gast-importes.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-ingr/penloc2-econ-ingr.xsd"  uri="penloc2-econ-ingr.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-ingr-cuentas/penloc2-econ-ingr-cuentas.xsd"  uri="penloc2-econ-ingr-cuentas.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-econ-ingr-importes/penloc2-econ-ingr-importes.xsd"  uri="penloc2-econ-ingr-importes.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-prog/penloc2-prog.xsd"  uri="penloc2-prog.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-prog-cuentas/penloc2-prog-cuentas.xsd"  uri="penloc2-prog-cuentas.xsd"/>
+     <system systemId="http://www.meh.es/taxonomias/penloc2-prog-cuentas-econ-cruzadas/penloc2-prog-cuentas-econ-cruzadas.xsd"  uri="penloc2-prog-cuentas-econ-cruzadas.xsd"/>
+     
+	</group>
+</catalog>

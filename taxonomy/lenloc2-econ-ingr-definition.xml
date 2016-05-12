@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:p0="http://xbrl.org/2005/xbrldt" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/lenloc2-econ-ingr-cuentas/EconomicaIngresos" xlink:type="simple" xlink:href="lenloc2-econ-ingr-cuentas.xsd#RT_3"/>
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/lenloc2-econ-ingr/EconomicaIngresos" xlink:type="simple" xlink:href="lenloc2-econ-ingr-cuentas.xsd#RT_2"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/all" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://www.meh.es/taxonomias/lenloc2-econ-ingr/EconomicaIngresos">
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-importes.xsd#lenloc2-econ-ingr-importes_ImportesDeEconomicaDeIngresos" xlink:label="ImportesDeEconomicaDeIngresos" xlink:title="ImportesDeEconomicaDeIngresos"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-importes.xsd#lenloc2_PrevisionDefinivaDelEjercicioCorriente" xlink:label="PrevisionDefinivaDelEjercicioCorriente" xlink:title="PrevisionDefinivaDelEjercicioCorriente"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ImportesDeEconomicaDeIngresos" xlink:to="PrevisionDefinivaDelEjercicioCorriente" xlink:title="definition: ImportesDeEconomicaDeIngresos to PrevisionDefinivaDelEjercicioCorriente" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-importes.xsd#lenloc2_DerechosReconocidosDelEjercicioCorriente" xlink:label="DerechosReconocidosDelEjercicioCorriente" xlink:title="DerechosReconocidosDelEjercicioCorriente"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ImportesDeEconomicaDeIngresos" xlink:to="DerechosReconocidosDelEjercicioCorriente" xlink:title="definition: ImportesDeEconomicaDeIngresos to DerechosReconocidosDelEjercicioCorriente" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-importes.xsd#lenloc2_RecaudacionLiquidaDelEjercicioCorriente" xlink:label="RecaudacionLiquidaDelEjercicioCorriente" xlink:title="RecaudacionLiquidaDelEjercicioCorriente"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ImportesDeEconomicaDeIngresos" xlink:to="RecaudacionLiquidaDelEjercicioCorriente" xlink:title="definition: ImportesDeEconomicaDeIngresos to RecaudacionLiquidaDelEjercicioCorriente" order="3.0"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-importes.xsd#lenloc2_RecaudacionLiquidaDeEjerciciosCerrados" xlink:label="RecaudacionLiquidaDeEjerciciosCerrados" xlink:title="RecaudacionLiquidaDeEjerciciosCerrados"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ImportesDeEconomicaDeIngresos" xlink:to="RecaudacionLiquidaDeEjerciciosCerrados" xlink:title="definition: ImportesDeEconomicaDeIngresos to RecaudacionLiquidaDeEjerciciosCerrados" order="4.0"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr.xsd#lenloc2-econ-ingr_Cuentashipercubo" xlink:label="Cuentashipercubo" xlink:title="Cuentashipercubo"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="ImportesDeEconomicaDeIngresos" xlink:to="Cuentashipercubo" xlink:title="definition: ImportesDeEconomicaDeIngresos to Cuentashipercubo" order="5.0" p0:contextElement="segment"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr.xsd#lenloc2-econ-ingr_Cuentasdimension" xlink:label="Cuentasdimension" xlink:title="Cuentasdimension"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="Cuentashipercubo" xlink:to="Cuentasdimension" xlink:title="definition: Cuentashipercubo to Cuentasdimension" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-econ-ingr-cuentas.xsd#lenloc2_EconomicaIngresos" xlink:label="EconomicaIngresos" xlink:title="EconomicaIngresos"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="Cuentasdimension" xlink:to="EconomicaIngresos" xlink:title="definition: Cuentasdimension to EconomicaIngresos" order="1.0" p0:targetRole="http://www.meh.es/taxonomias/lenloc2-econ-ingr-cuentas/EconomicaIngresos"/>
+  </link:definitionLink>
+</link:linkbase>

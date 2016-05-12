@@ -1,0 +1,4 @@
+#Mon Dec 01 12:35:57 CET 2008
+es.inteco.xbrl.lenlocpenloc.transform.maps.Member=es.inteco.xbrl.lenlocpenloc.transform.maps.descriptors.MemberDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.maps.ConceptMap=es.inteco.xbrl.lenlocpenloc.transform.maps.descriptors.ConceptMapDescriptor
+es.inteco.xbrl.lenlocpenloc.transform.maps.Statement=es.inteco.xbrl.lenlocpenloc.transform.maps.descriptors.StatementDescriptor

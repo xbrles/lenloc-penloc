@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:lenloc2-onp-deudores-acreedores="http://www.meh.es/taxonomias/lenloc2-onp-deudores-acreedores" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/lenloc2-onp-acreedores/acreedores" xlink:type="simple" xlink:href="lenloc2-onp-deudores-acreedores.xsd#RT_2"/>
+  <link:roleRef roleURI="http://www.meh.es/taxonomias/lenloc2-onp-deudores/deudores" xlink:type="simple" xlink:href="lenloc2-onp-deudores-acreedores.xsd#RT_1"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+</link:linkbase>

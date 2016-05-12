@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:lenloc2-onp-deudores-acreedores="http://www.meh.es/taxonomias/lenloc2-onp-deudores-acreedores" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="lenloc2-onp-deudores-acreedores.xsd#lenloc2-onp-deudores_DeudoresNoPresupuestarios" xlink:label="newItem" xlink:title="newItem"/>
+    <link:label xlink:type="resource" xlink:label="label_newItem" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem" xml:lang="es" id="label_newItem">Deudores no presupuestarios</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="newItem" xlink:to="label_newItem" xlink:title="label: newItem to label_newItem"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-onp-deudores-acreedores.xsd#lenloc2-onp-deudores_PartidasPendientesAplicacionPagos" xlink:label="newItem2" xlink:title="newItem2"/>
+    <link:label xlink:type="resource" xlink:label="label_newItem2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem2" xml:lang="es" id="label_newItem2">Partidas pendientes de aplicación. Pagos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="newItem2" xlink:to="label_newItem2" xlink:title="label: newItem2 to label_newItem2"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-onp-deudores-acreedores.xsd#lenloc2-onp-deudores_AcreedoresNoPresupuestarios" xlink:label="newItem2_2" xlink:title="newItem2"/>
+    <link:label xlink:type="resource" xlink:label="label_newItem2_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem2" xml:lang="es" id="label_newItem2_2">Acreedores no presupuestarios</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="newItem2_2" xlink:to="label_newItem2_2" xlink:title="label: newItem2 to label_newItem2"/>
+    <link:loc xlink:type="locator" xlink:href="lenloc2-onp-deudores-acreedores.xsd#lenloc2-onp-deudores_PartidasPendientesAplicacionIngresos" xlink:label="newItem3_2" xlink:title="newItem3"/>
+    <link:label xlink:type="resource" xlink:label="label_newItem3_2" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_newItem3" xml:lang="es" id="label_newItem3_2">Partidas pendientes de aplicación. Ingresos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="newItem3_2" xlink:to="label_newItem3_2" xlink:title="label: newItem3 to label_newItem3"/>
+  </link:labelLink>
+</link:linkbase>

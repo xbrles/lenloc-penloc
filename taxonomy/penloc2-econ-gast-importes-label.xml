@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast-importes.xsd#penloc2-econ-gast-importes_ImportesDeEconomicaDeGastos" xlink:label="Programas" xlink:title="Programas"/>
+    <link:label xlink:type="resource" xlink:label="label_Programas" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_Programas" xml:lang="es" id="label_Programas">Importes de Económica de Gastos</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="Programas" xlink:to="label_Programas" xlink:title="label: Programas to label_Programas"/>
+    <link:loc xlink:type="locator" xlink:href="penloc2-econ-gast-importes.xsd#penloc2-econ-gast-importes_PrevisionInicial" xlink:label="CreditosDefinitivosDelEjercicioCorriente" xlink:title="CreditosDefinitivosDelEjercicioCorriente"/>
+    <link:label xlink:type="resource" xlink:label="label_CreditosDefinitivosDelEjercicioCorriente" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_CreditosDefinitivosDelEjercicioCorriente" xml:lang="es" id="label_CreditosDefinitivosDelEjercicioCorriente">Previsión inicial del ejercicio</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="CreditosDefinitivosDelEjercicioCorriente" xlink:to="label_CreditosDefinitivosDelEjercicioCorriente" xlink:title="label: CreditosDefinitivosDelEjercicioCorriente to label_CreditosDefinitivosDelEjercicioCorriente"/>
+  </link:labelLink>
+</link:linkbase>
