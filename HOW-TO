@@ -1,0 +1,34 @@
+Guía básica de configuración de INTECO_APIXBRLLENLOCPENLOC para la integración en modo nativo.
+
+La carpeta "inteco_apixbrllenlocpenloc" representa el proyecto java integrable en el IDE eclipse.
+La estructura de directorios de esta carpeta es la siguiente:
+
++---bin
++---config
+¦   +---schemas
++---lib
++---log
++---properties
++---resources
+    +---ENLOCMaps
+    +---System
+    ¦   +---xbrlOrg
+    +---XSLTransformer
++---src
++---taxonomy
++---temp
+    
+
+Ficheros contenidos en el directorio raíz:
+
+* Fichero "..\config\enloc.properties"
+		· taxonomyRoot: indica el directorio de nuestro sistema que contiene la taxonomía xbrl.
+		· basePath: debe contener la cadena según el entorno en que se utilice la librería:
+			· Línea de comandos: /../
+			. Aplicación Web: /
+			· IDE desarrrollo: /./
+		· testPath: indica el directorio destinado a realizar las pruebas unitarias con JUnit y contendrá los ficheros de entrada y salida para las funcionalidades implementadas.
+		· temp: directorio temporal utilizado durante la transformación.
+    · schemaLocationIOInterface: no modificar este parámetro, indica el schemaLotacion del esquema que define el formato de los ficheros en formato común XML.
+* Fichero "..\config\log4j.properties"
+		· log4j.appender.R.File: directorio donde se guardará el log emitido por el API.

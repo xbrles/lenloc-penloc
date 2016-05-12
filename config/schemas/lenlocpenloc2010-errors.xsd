@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/errors/catalog" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.inteco.es/xbrl/lenlocpenloc2010/errors/catalog" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
+	<xsd:element name="ENLOCErrorsCatalog">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="ENLOCError" maxOccurs="unbounded">
+					<xsd:complexType mixed="true">
+						<xsd:sequence/>
+						<xsd:attribute ref="xml:lang"/>
+						<xsd:attribute name="errorCode" type="xsd:integer"/>
+						<xsd:attribute name="type">
+							<xsd:simpleType>
+								<xsd:restriction base="xsd:string">
+									<xsd:enumeration value="xbreeze"/>
+									<xsd:enumeration value="xerces"/>
+									<xsd:enumeration value="xapinteco"/>
+								</xsd:restriction>
+							</xsd:simpleType>
+						</xsd:attribute>
+						<xsd:attribute name="id" type="xsd:string"/>
+						<xsd:attribute name="parameterList" type="xsd:string"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

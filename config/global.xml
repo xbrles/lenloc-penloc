@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ultima actualización 26/05/2011 13:01h -->
+<global xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.inteco.es/xbrl/lenlocpenloc/identifiers" xml:base="taxonomy/" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc/identifiers schemas/lenlocpenloc2010-global.xsd">
+	<configReport id="liquidaciones">
+		<nsItem prefix="lenloc2" uri="http://www.meh.es/taxonomias/lenloc2"/>
+		<nsItem prefix="lenloc2-anexo1" uri="http://www.meh.es/taxonomias/lenloc2-anexo1"/>
+		<nsItem prefix="lenloc2-anexo2" uri="http://www.meh.es/taxonomias/lenloc2-anexo2"/>
+		<nsItem prefix="lenloc2-anexo3" uri="http://www.meh.es/taxonomias/lenloc2-anexo3"/>
+		<nsItem prefix="lenloc2-anexo4" uri="http://www.meh.es/taxonomias/lenloc2-anexo4"/>
+		<nsItem prefix="lenloc2-anexo5" uri="http://www.meh.es/taxonomias/lenloc2-anexo5"/>
+		<nsItem prefix="lenloc2-econ-gast" uri="http://www.meh.es/taxonomias/lenloc2-econ-gast"/>
+		<nsItem prefix="lenloc2-econ-gast-cuentas" uri="http://www.meh.es/taxonomias/lenloc2-econ-gast-cuentas"/>
+		<nsItem prefix="lenloc2-econ-gast-abierta" uri="http://www.meh.es/taxonomias/lenloc2-econ-gast-abierta"/>
+		<nsItem prefix="lenloc2-econ-gast-importes" uri="http://www.meh.es/taxonomias/lenloc2-econ-gast-importes"/>
+		<nsItem prefix="lenloc2-econ-ingr" uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr"/>
+		<nsItem prefix="lenloc2-econ-ingr-cuentas" uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr-cuentas"/>
+		<nsItem prefix="lenloc2-econ-ingr-abierta" uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr-abierta"/>
+		<nsItem prefix="lenloc2-econ-ingr-importes" uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr-importes"/>
+		<nsItem prefix="lenloc2-exist" uri="http://www.meh.es/taxonomias/lenloc2-exist"/>
+		<nsItem prefix="lenloc2-onp" uri="http://www.meh.es/taxonomias/lenloc2-onp"/>
+		<nsItem prefix="lenloc2-onp-deudores-acreedores" uri="http://www.meh.es/taxonomias/lenloc2-onp-deudores-acreedores"/>
+		<nsItem prefix="lenloc2-onp-importes" uri="http://www.meh.es/taxonomias/lenloc2-onp-importes"/>
+		<nsItem prefix="lenloc2-prog" uri="http://www.meh.es/taxonomias/lenloc2-prog"/>
+		<nsItem prefix="lenloc2-prog-cuentas" uri="http://www.meh.es/taxonomias/lenloc2-prog-cuentas"/>
+		<nsItem prefix="lenloc2-prog-abierta" uri="http://www.meh.es/taxonomias/lenloc2-prog-abierta"/>
+		<nsItem prefix="lenloc2-prog-cuentas-econ-cruzadas" uri="http://www.meh.es/taxonomias/lenloc2-prog-cuentas-econ-cruzadas"/>
+		<nsItem prefix="lenloc2-remt" uri="http://www.meh.es/taxonomias/lenloc2-remt"/>
+		<nsItem prefix="lenloc2-resultp" uri="http://www.meh.es/taxonomias/lenloc2-resultp"/>
+		<nsItem prefix="lenloc2-ref" uri="http://www.meh.es/taxonomias/lenloc2-ref"/>
+		<nsItem prefix="iso4217" uri="http://www.xbrl.org/2003/iso4217"/>
+		<nsItem prefix="xbrldi" uri="http://xbrl.org/2006/xbrldi"/>
+		<unit key="euro" code="EUR" prefix="iso4217"/>
+		<unit key="eur" code="EUR" prefix="iso4217"/>
+		<unit key="pure" code="pure" prefix="xbrli"/>
+		<unit key="shares" code="shares" prefix="xbrli"/>
+		<unit key="string" code="string" prefix="xbrli"/>
+		<schemaRef uri="lenloc2.xsd" baseUrl="." main="true" type="schema" targetNamespace="http://www.meh.es/taxonomias/lenloc2"/>
+		<configModule fileMap="lenloc2010-DI.xml" labelRole="http://www.xbrl.org/2003/role/link" presentationRole="http://www.meh.es/taxonomias/lenloc2/DatosIdentificativos" title="DATOS IDENTIFICATIVOS" id="DI">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/presentationLinkbaseRef"/>
+				<role uri="http://www.xbrl.org/2003/role/labelLinkbaseRef"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-presentation.xml" type="presentation"/>
+			<file uri="lenloc2.xsd" type="schema-root"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A1.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DEL ANEXO 1" id="A1">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo1/Anexo1InteresesYRendimientosDevengados"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo1-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo1-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A2.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DEL ANEXO 2" id="A2">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo2/Anexo2OperacionsDeTesoreriaACortoPlazoPresupuestariasYNoPresupuestarias"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo2-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo2-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo2-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo2-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo2-definition.xml" type="dimension"/>
+			<file uri="lenloc2-anexo2-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A3P.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DEL ANEXO 3 (intereses pagados)" id="A3P">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo3/Anexo3InteresesPagadosAOtrasAdministracionesPublicas"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo3-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo3-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A3R.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DEL ANEXO 3 (intereses recibidos)" id="A3R">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo3/Anexo3InteresesRecibidosAOtrasAdministracionesPublicas"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo3-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo3.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A4ECP.xml" labelRole="http://www.xbrl.org/2003/role/link" title="EJECUTADOS CON CLASIFICACIÓN PRESUPUESTARIA" id="A4ECP">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo4/Anexo4AvalesEjecutadosClasificacionEconomicaDeGastos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo4-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo4.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A4ECNP.xml" labelRole="http://www.xbrl.org/2003/role/link" title="EJECUTADOS CON CONCEPTO NO PRESUPUESTARIO" id="A4ECNP">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo4/Anexo4AvalesEjecutadosConceptosNoPresupuestarios"/>
+ 			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo4-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo4.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A4RCP.xml" labelRole="http://www.xbrl.org/2003/role/link" title="REINTEGRADOS CON CLASIFICACION PRESUPUESTARIA" id="A4RCP">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo4/Anexo4AvalesReintegradosClasificacionEconomicaDeIngresos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo4-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo4.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A4RCNP.xml" labelRole="http://www.xbrl.org/2003/role/link" title="REINTEGRADOS CON CONCEPTO NO PRESUPUESTARIO" id="A4RCNP">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo4/Anexo4AvalesReintegradosConceptosNoPresupuestarios"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo4-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo4.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-A5.xml" labelRole="http://www.xbrl.org/2003/role/link" title="CONCEPTOS DEL ANEXO 5" id="A5">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-anexo5/Anexo5ObligacionesReconocidasPorLaCCLLAFavorDeUnidadesDelSectorPublicoPorLosDistintosCapitulosPresupuestarios"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-anexo5-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-anexo5.xsd" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-GAST.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE GASTOS" id="GAST">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-econ-gast/EconomicaGastos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-econ-gast-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-econ-gast-cuentas-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-GASTA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE GASTOS (ABIERTA)" id="GASTA">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr/EconomicaGastosAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-econ-gast-abierta-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-econ-gast-abierta-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-ING.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE INGRESOS" id="ING">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr/EconomicaIngresos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-econ-ingr-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-econ-ingr-cuentas-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-INGA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE INGRESOS (ABIERTA)" id="INGA">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-econ-ingr/EconomicaIngresosAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-econ-ingr-abierta-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-econ-ingr-abierta-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-CB.xml" labelRole="http://www.xbrl.org/2003/role/link" presentationRole="http://www.meh.es/taxonomias/lenloc2-exist/ExistenciasEnCajaYBancos" title="EXISTENCIAS EN CAJAS Y BANCOS" id="CB">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-exist-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-exist-definition.xml" type="dimension"/>
+			<file uri="lenloc2-exist-definition.xml" type="dimension"/>
+			<file uri="lenloc2-exist-definition.xml" type="dimension"/>
+			<file uri="lenloc2-exist-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-ACR.xml" labelRole="http://www.xbrl.org/2003/role/link" title="ACREEDORES E INGRESOS PENDIENTES DE APLICACIÓN" id="ACR">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-onp/AcreedoresIngresosOperacionesNoPresupuestarias"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-onp-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-onp-deudores-acreedores-definition.xml" type="dimension"/>
+			<file uri="lenloc2-onp-deudores-acreedores-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-DEU.xml" labelRole="http://www.xbrl.org/2003/role/link" title="DEUDORES Y PAGOS PENDIENTES DE APLICACIÓN" id="DEU">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-onp/DeudoresYPagosOperacionesNoPresupuestarias"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-onp-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-onp-deudores-acreedores-definition.xml" type="dimension"/>
+			<file uri="lenloc2-onp-deudores-acreedores-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-PROG.xml" labelRole="http://www.xbrl.org/2003/role/link" title="CUENTAS DE LA ECONÓMICA DE GASTOS CRUZADAS CON PROGRAMAS" id="PROG">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-prog/Programas"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-prog-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-prog-cuentas-definition.xmll" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-PROGA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="CUENTAS DE LA ECONÓMICA DE GASTOS CRUZADAS CON PROGRAMAS (ABIERTA)" id="PROGA">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-prog/ProgramasAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-prog-abierta-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-prog-abierta-definition.xmll" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-RT.xml" labelRole="http://www.xbrl.org/2003/role/link" title="REMANENTE DE TESORERÍA" id="RT">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-remt/RemanenteTesoreria"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<!--Dimensional-->
+			<file uri="lenloc2-remt-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-remt-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-RP.xml" labelRole="http://www.xbrl.org/2003/role/link" presentationRole="http://www.meh.es/taxonomias/lenloc2-resultp/ResultadoPresupuestario" title="IMPORTES DEL RESULTADO PRESUPUESTARIO" id="RP">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-resultp/ResultadoPresupuestario"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-resultp-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-resultp-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="lenloc2010-RPA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DEL RESULTADO PRESUPUESTARIO" id="RPA">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/lenloc2-resultp/ResultadoPresupuestarioAjustado"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="lenloc2-resultp-definition.xml" type="hypercube"/>
+			<file uri="lenloc2-resultp-definition.xml" type="dimension"/>
+			<file uri="lenloc2-resultp-definition.xml" type="dimension"/>
+			<file uri="lenloc2-resultp-definition.xml" type="dimension"/>
+			<file uri="lenloc2-resultp-definition.xml" type="dimension"/>
+		</configModule>
+	</configReport>
+	
+
+  <!-- PENLOC -->
+	<configReport id="presupuestos">
+		<nsItem prefix="penloc2" uri="http://www.meh.es/taxonomias/penloc2-ord"/>
+		<nsItem prefix="penloc2-econ-gast" uri="http://www.meh.es/taxonomias/penloc2-econ-gast"/>
+		<nsItem prefix="penloc2-econ-gast-cuentas" uri="http://www.meh.es/taxonomias/penloc2-econ-gast-cuentas"/>
+		<nsItem prefix="penloc2-econ-gast-abierta" uri="http://www.meh.es/taxonomias/penloc2-econ-gast-abierta"/>
+		<nsItem prefix="penloc2-econ-gast-importes" uri="http://www.meh.es/taxonomias/penloc2-econ-gast-importes"/>
+		<nsItem prefix="penloc2-econ-ingr" uri="http://www.meh.es/taxonomias/penloc2-econ-ingr"/>
+		<nsItem prefix="penloc2-econ-ingr-cuentas" uri="http://www.meh.es/taxonomias/penloc2-econ-ingr-cuentas"/>
+		<nsItem prefix="penloc2-econ-ingr-abierta" uri="http://www.meh.es/taxonomias/penloc2-econ-ingr-abierta"/>
+		<nsItem prefix="penloc2-econ-ingr-importes" uri="http://www.meh.es/taxonomias/penloc2-econ-ingr-importes"/>
+		<nsItem prefix="penloc2-prog" uri="http://www.meh.es/taxonomias/penloc2-prog"/>
+		<nsItem prefix="penloc2-prog-cuentas" uri="http://www.meh.es/taxonomias/penloc2-prog-cuentas"/>
+		<nsItem prefix="penloc2-prog-abierta" uri="http://www.meh.es/taxonomias/penloc2-prog-abierta"/>
+		<nsItem prefix="penloc2-prog-cuentas-econ-cruzadas" uri="http://www.meh.es/taxonomias/penloc2-prog-cuentas-econ-cruzadas"/>
+		<nsItem prefix="penloc2-ref" uri="http://www.meh.es/taxonomias/penloc2-ref"/>
+		<nsItem prefix="iso4217" uri="http://www.xbrl.org/2003/iso4217"/>		
+		<nsItem prefix="xbrldi" uri="http://xbrl.org/2006/xbrldi"/>
+		<unit key="euro" code="EUR" prefix="iso4217"/>
+		<unit key="eur" code="EUR" prefix="iso4217"/>
+		<unit key="pure" code="pure" prefix="xbrli"/>
+		<unit key="shares" code="shares" prefix="xbrli"/>
+		<unit key="string" code="string" prefix="xbrli"/>
+		<schemaRef uri="penloc2.xsd" baseUrl="." main="true" type="schema" targetNamespace="http://www.meh.es/taxonomias/penloc2-ord"/>
+		<configModule fileMap="penloc2010-PDI.xml" labelRole="http://www.xbrl.org/2003/role/link" presentationRole="http://www.meh.es/taxonomias/penloc2/DatosIdentificativos" title="DATOS IDENTIFICATIVOS" id="PDI">
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/presentationLinkbaseRef"/>
+				<role uri="http://www.xbrl.org/2003/role/labelLinkbaseRef"/>
+			</labelTypeRoles>
+			<file uri="penloc2-presentation.xml" type="presentation"/>
+			<file uri="penloc2.xsd" type="schema-root"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PGAST.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE GASTOS" id="PGAST">
+			<!--Dimensional-->
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-econ-gast/EconomicaGastos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="penloc2-econ-gast-definition.xml" type="hypercube"/>
+			<file uri="penloc2-econ-gast-cuentas-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PING.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE INGRESOS" id="PING">
+			<!--Dimensional-->
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-econ-ingr/EconomicaIngresos"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="penloc2-econ-ingr-definition.xml" type="hypercube"/>
+			<file uri="penloc2-econ-ingr-cuentas-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PPROG.xml" labelRole="http://www.xbrl.org/2003/role/link" title="CUENTAS DE LA ECONÓMICA DE GASTOS CRUZADAS CON PROGRAMAS" id="PPROG">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-prog/Programas"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<!--Dimensional-->
+			<file uri="penloc2-prog-definition.xml" type="hypercube"/>
+			<file uri="penloc2-prog-cuentas-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PPROGA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="CUENTAS DE LA ECONÓMICA DE GASTOS CRUZADAS CON PROGRAMAS (ABIERTA)" id="PPROGA">
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-econ-ingr/ProgramasAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<!--Dimensional-->
+			<file uri="penloc2-prog-abierta-definition.xml" type="hypercube"/>
+			<file uri="penloc2-prog-abierta-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PGASTA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE GASTOS (ABIERTA)" id="PGASTA">
+			<!--Dimensional-->
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-econ-ingr/EconomicaGastosAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="penloc2-econ-gast-abierta-definition.xml" type="hypercube"/>
+			<file uri="penloc2-econ-gast-abierta-definition.xml" type="dimension"/>
+		</configModule>
+		<configModule fileMap="penloc2010-PINGA.xml" labelRole="http://www.xbrl.org/2003/role/link" title="IMPORTES DE ECONÓMICA DE INGRESOS (ABIERTA)" id="PINGA">
+			<!--Dimensional-->
+			<definitionRoles>
+				<role uri="http://www.meh.es/taxonomias/penloc2-econ-ingr/EconomicaIngresosAbierta"/>
+			</definitionRoles>
+			<labelTypeRoles>
+				<role uri="http://www.xbrl.org/2003/role/label"/>
+			</labelTypeRoles>
+			<file uri="penloc2-econ-ingr-abierta-definition.xml" type="hypercube"/>
+			<file uri="penloc2-econ-ingr-abierta-definition.xml" type="dimension"/>
+		</configModule>
+	</configReport>
+
+</global>

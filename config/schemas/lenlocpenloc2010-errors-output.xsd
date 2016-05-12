@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <element name="ENLOCErrorsOutput">
+        <complexType>
+            <sequence>
+                <element name="ENLOCErrorOut" minOccurs="0" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="ENLOCErrorParameter" minOccurs="0" maxOccurs="unbounded">
+                                <complexType mixed="true">
+                                    <sequence/>
+                                    <attribute name="id" type="integer"/>
+                                    <attribute name="ENLOCCode" type="xsd:string" use="optional" />
+                                </complexType>
+                            </element>
+                            <element name="defaultDescription" type="xsd:string" />
+                            <element name="translatedDescription" type="xsd:string"  minOccurs="0" />
+                           
+                        </sequence>                    
+                        <attribute name="errorCode" type="integer"/>
+                        <attribute name="errorType" type="xsd:string" use="optional" />
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

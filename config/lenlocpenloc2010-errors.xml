@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Xerces @version $Id: XMLSchemaMessages.properties,v 1.78 2005/06/14 04:24:24  -->
+<!-- XBreeze XBRL Processing Engine (XPE), Localizer.xml, v2.500 2007-01-06 05:23 -->
+<!-- XAPINTECO  errorMessages.properties  -->
+<ENLOCErrorsCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.inteco.es/xbrl/lenlocpenloc2010/errors/catalog schemas/lenlocpenloc2010-errors.xsd" xmlns="http://www.inteco.es/xbrl/lenlocpenloc2010/errors/catalog">
+    <ENLOCError errorCode="0" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FootnoteLocatorOutOfScope" parameterList="0,1">Footnote is not correctly created. Concept {0} cannot be associated to label {1}</ENLOCError>
+	<ENLOCError errorCode="1" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#UnitRefAttributeMustNotOccurInNonNumericItem" parameterList="0">Only can be associated units to numerical concepts. Please, delete attribute unitRef from concept {0}</ENLOCError>
+    <ENLOCError errorCode="2" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#UnitRefAttributeMustOccurInNumericItem" parameterList="0">All numerical concepts must have a unit associated. Please, add attribute unitRef to concept {0}</ENLOCError>
+    <ENLOCError errorCode="3" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#NumericItemsMustHaveUnitRefAttribute" parameterList="0">All numerical concepts must have a unit associated. Please, add attribute unitRef to concept {0}</ENLOCError>
+    <ENLOCError errorCode="4" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#NumericItemMustNotHaveBothPrecisionAndDecimalsAttribute" parameterList="0">An item only must have defined its precision or decimals number. Please delete one of them from the concept {0}</ENLOCError>
+    <ENLOCError errorCode="5" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#NumericItemMustHaveEitherPrecisionOrDecimalsAttribute" parameterList="0">An item only must have defined its precision or decimals number. Please delete one of them from the concept {0}</ENLOCError>
+    <ENLOCError errorCode="6" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#NonNumericItemMustNotHaveEitherPrecisionOrDecimalsAttribute" parameterList="0">A non-numerical item must not have defined precision either number of decimals. Please, delete this attributes from concept {0}</ENLOCError>
+    <ENLOCError errorCode="7" xml:lang="en" type="xbreeze" 
+        id="memo://ubmatrix.com/Validation/Instance#ElementWithPeriodTypeInstantMustContainInstantElement" parameterList="0">Element {0} of period type instant has associated a duration type context. Please, change this relation to a correct context.</ENLOCError>
+    <ENLOCError errorCode="8" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#ElementWithPeriodTypeDurationMustContainForeverOrValidSeqOfStartDateAndEndDate" parameterList="0">Element {0} of period type duration has associated an instant type context. Please, change this relation to a correct context.</ENLOCError>
+    <ENLOCError errorCode="9" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#SegmentElementMustNotBeInSubstitutionGroupForElementsDefinedInXBRLInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "segment" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="10" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#ScenarioElementMustNotBeRedefinedInXBRLInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "scenario" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="11" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FactDerivedFromMonetaryItemTypeHasBalanceDefined" parameterList="0">"balance" attribute cannot be used in non-monetary items. Please, delete "balance" attribute from concept {0}</ENLOCError>
+    <ENLOCError errorCode="12" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FactWithPureUnitsHasMoreThanOneMeasurement" parameterList="0">Unit from "pureItemType" concept must be "pure". Please, correct unitRef from concept {0}</ENLOCError>
+    <ENLOCError errorCode="13" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#LocalPartOfMeasureItemsIsNotInISONamespace" parameterList="0">Unit from monetary item bust be a monetary code of ISO 4217 type. Please, correct unitref from concept {0}</ENLOCError>
+    <ENLOCError errorCode="14" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FactUnitNumeratorAndDenominatorAreNotInSimplestForm" parameterList="0">Error in "{0}."  Units MUST be expressed in their simplest possible form.  The "divide" element MUST not contain any "measure" elements in its "unitNumerator" that are s-equal to "measure" elements in its "unitDenominator."</ENLOCError>
+    <ENLOCError errorCode="15" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FootnoteResourceMissingXmlLangAttribute" parameterList="0">Each footnote must have a lenguage related. Please, add "xml:lang" attribute to footnote {0}</ENLOCError>
+    <ENLOCError errorCode="16" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FactsIsXBRLIdentical" parameterList="0">There are two duplicated concepts, with same unit and same period of time. Please, delete one of the concept {0}</ENLOCError>
+    <ENLOCError errorCode="17" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#ScenarioElementMustNotBeInSubstitutionGroupForElementsDefinedInXBRLInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "scenario" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="18" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#SegmentElementMustNotBeRedefinedInXBRLInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "segment" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="19" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#SegmentDescendentDefinedInInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "segment" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="20" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#ScenarioDescendentDefinedInInstanceNamespace" parameterList="0">A XBRL element cannot exist inside of a "scenario" element from a context. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="21" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#FactWithSharesUnitsHasMoreThanOneMeasurement" parameterList="0">Items with "share" type units are percents or fractions. For that reason it must have more than one measures. Please, correct item {0}</ENLOCError>
+    <ENLOCError errorCode="22" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#PureFactDoesNotHavePureUnits" parameterList="0">Numerical items defined as "pureItemTyped" must be associated a "pure" measure. Please, correct {0}</ENLOCError>
+    <ENLOCError errorCode="23" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#SharesFactDoesNotHaveSharesUnits" parameterList="0">Numerical items defined as "shareItemType" must have a "share" measure. Please, correct item {0}</ENLOCError>
+    <ENLOCError errorCode="24" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#PrefixPartOfMeasureItemIsNotInISONamespace" parameterList="0">Measure of a unit from a monetary item must be a monetary code of type ISO 4217. But if the element is pureItemType or ShareItemType, measure of the unit must be a XBRL element. Please correct {0}</ENLOCError>
+    <ENLOCError errorCode="25" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#MeasuresInUnitNumeratorAreNotSEqualToMeasuresInDenominator" parameterList="0">In a unit of type fraction, measures of the numerator and denominator must be equals. Please, correct {0}</ENLOCError>
+		<ENLOCError errorCode="26" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#ValueOfMeasureIsNotQName" parameterList="0">Error in "{0}." The value of the measure is not Q name.</ENLOCError>
+    <ENLOCError errorCode="27" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#NumericItemMustUseContextRefAndUnitRefAttribute" parameterList="0">All numerical concepts must be associated a context and a unit. Please, correct concept {0}</ENLOCError>
+    <ENLOCError errorCode="28" xml:lang="en" type="xbreeze"
+        id="memo://ubmatrix.com/Validation/Instance#EndDateMustBeLaterThanStartDate" parameterList="0,1,2,3">Instance Validation Error: Start-date "{0}" is later than end-date "{1}" for the context "{2}" in the instance document "{3}." If supplied, the endDate MUST specify or imply a point in time that is later than the specified or implied point in time of the corresponding startDate.</ENLOCError>
+    <ENLOCError errorCode="29" xml:lang="en" type="xerces" id="BadMessageKey" parameterList=""/>
+    <ENLOCError errorCode="30" xml:lang="en" type="xerces" id="mg-props-correct.2" parameterList="0"/>
+    <ENLOCError errorCode="31" xml:lang="en" type="xerces" id="src-redefine.3.1" parameterList="1,0"/>
+    <ENLOCError errorCode="32" xml:lang="en" type="xerces" id="cos-st-restricts.2.1" parameterList="0,1"/>
+    <ENLOCError errorCode="33" xml:lang="en" type="xerces" id="cvc-elt.3.2.2" parameterList="0,1"/>
+    <ENLOCError errorCode="34" xml:lang="en" type="xerces" id="cvc-elt.3.2.1" parameterList="0,1"/>
+    <ENLOCError errorCode="35" xml:lang="en" type="xerces" id="cvc-complex-type.4" parameterList="1,0"/>
+    <ENLOCError errorCode="36" xml:lang="en" type="xerces"
+        id="fractionDigits-valid-restriction" parameterList="2,0,1"/>
+    <ENLOCError errorCode="37" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.5.3.2" parameterList="0,1"/>
+    <ENLOCError errorCode="38" xml:lang="en" type="xerces"
+        id="minLength-less-than-equal-to-maxLength" parameterList="2,0,1"/>
+    <ENLOCError errorCode="39" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.4.b" parameterList="0,1,2"/>
+    <ENLOCError errorCode="40" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.4.a" parameterList="0,1"/>
+    <ENLOCError errorCode="41" xml:lang="en" type="xerces" id="cos-applicable-facets" parameterList="0,1"/>
+    <ENLOCError errorCode="42" xml:lang="en" type="xerces" id="st-props-correct.3" parameterList="0,1"/>
+    <ENLOCError errorCode="43" xml:lang="en" type="xerces" id="sch-props-correct.2" parameterList="0"/>
+    <ENLOCError errorCode="44" xml:lang="en" type="xerces" id="st-props-correct.2" parameterList="0,0"/>
+    <ENLOCError errorCode="45" xml:lang="en" type="xerces" id="src-single-facet-value" parameterList="0"/>
+    <ENLOCError errorCode="46" xml:lang="en" type="xerces" id="no-xsi" parameterList="0"/>
+    <ENLOCError errorCode="47" xml:lang="en" type="xerces" id="Internal-Error" parameterList="0"/>
+    <ENLOCError errorCode="48" xml:lang="en" type="xerces"
+        id="cvc-fractionDigits-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="49" xml:lang="en" type="xerces"
+        id="maxInclusive-maxExclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="50" xml:lang="en" type="xerces"
+        id="length-valid-restriction" parameterList="2,0,1"/>
+    <ENLOCError errorCode="51" xml:lang="en" type="xerces" id="KeyRefReferNotFound" parameterList="0,1"/>
+    <ENLOCError errorCode="52" xml:lang="en" type="xerces" id="c-general-xpath-ns" parameterList="0"/>
+    <ENLOCError errorCode="53" xml:lang="en" type="xerces" id="cvc-elt.3.1" parameterList="1,0,0"/>
+    <ENLOCError errorCode="54" xml:lang="en" type="xerces" id="src-attribute_group.3" parameterList="0"/>
+    <ENLOCError errorCode="55" xml:lang="en" type="xerces" id="src-attribute_group.2" parameterList="0"/>
+    <ENLOCError errorCode="56" xml:lang="en" type="xerces" id="FixedDiffersFromActual" parameterList=""/>
+    <ENLOCError errorCode="57" xml:lang="en" type="xerces" id="cvc-elt.2" parameterList="0"/>
+    <ENLOCError errorCode="58" xml:lang="en" type="xerces" id="src-redefine.2" parameterList="0"/>
+    <ENLOCError errorCode="59" xml:lang="en" type="xerces" id="cvc-elt.1" parameterList="0"/>
+    <ENLOCError errorCode="60" xml:lang="en" type="xerces" id="DuplicateKey" parameterList="0,1"/>
+    <ENLOCError errorCode="61" xml:lang="en" type="xerces" id="s4s-att-must-appear" parameterList="1,0"/>
+    <ENLOCError errorCode="62" xml:lang="en" type="xerces"
+        id="rcase-NSRecurseCheckCardinality.2" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="63" xml:lang="en" type="xerces"
+        id="rcase-NSRecurseCheckCardinality.1" parameterList=""/>
+    <ENLOCError errorCode="64" xml:lang="en" type="xerces"
+        id="cos-st-restricts.2.3.1.1" parameterList="0,0,1"/>
+    <ENLOCError errorCode="65" xml:lang="en" type="xerces"
+        id="cos-st-restricts.3.3.1.1" parameterList="0,0,1"/>
+    <ENLOCError errorCode="66" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.4.3" parameterList="0,1,2"/>
+    <ENLOCError errorCode="67" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.4.2" parameterList="0"/>
+    <ENLOCError errorCode="68" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.4.1" parameterList="0"/>
+    <ENLOCError errorCode="69" xml:lang="en" type="xerces" id="src-redefine.6.1.2" parameterList="0"/>
+    <ENLOCError errorCode="70" xml:lang="en" type="xerces" id="src-redefine.6.1.1" parameterList="0"/>
+    <ENLOCError errorCode="71" xml:lang="en" type="xerces" id="src-resolve" parameterList="0,1"/>
+    <ENLOCError errorCode="72" xml:lang="en" type="xerces" id="rcase-NSSubset.3" parameterList="0,1"/>
+    <ENLOCError errorCode="73" xml:lang="en" type="xerces" id="rcase-NSSubset.2" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="74" xml:lang="en" type="xerces"
+        id="src-union-memberTypes-or-simpleTypes" parameterList=""/>
+    <ENLOCError errorCode="75" xml:lang="en" type="xerces" id="rcase-NSSubset.1" parameterList=""/>
+    <ENLOCError errorCode="76" xml:lang="en" type="xerces"
+        id="enumeration-valid-restriction" parameterList="0,1"/>
+    <ENLOCError errorCode="77" xml:lang="en" type="xerces" id="cvc-minLength-valid" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="78" xml:lang="en" type="xerces" id="s4s-elt-must-match.2" parameterList="0,1"/>
+    <ENLOCError errorCode="79" xml:lang="en" type="xerces"
+        id="minInclusive-minExclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="80" xml:lang="en" type="xerces" id="s4s-elt-must-match.1" parameterList="0,1,2"/>
+    <ENLOCError errorCode="81" xml:lang="en" type="xerces"
+        id="minExclusive-less-than-maxInclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="82" xml:lang="en" type="xerces" id="src-simple-type.2.b" parameterList=""/>
+    <ENLOCError errorCode="83" xml:lang="en" type="xerces" id="PublicSystemOnNotation" parameterList=""/>
+    <ENLOCError errorCode="84" xml:lang="en" type="xerces" id="src-simple-type.2.a" parameterList=""/>
+    <ENLOCError errorCode="85" xml:lang="en" type="xerces" id="EmptyTargetNamespace" parameterList="0"/>
+    <ENLOCError errorCode="86" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.2.b" parameterList="0,1,2"/>
+    <ENLOCError errorCode="87" xml:lang="en" type="xerces" id="schema_reference.4" parameterList="0"/>
+    <ENLOCError errorCode="88" xml:lang="en" type="xerces" id="cvc-type.3.1.3" parameterList="1,0"/>
+    <ENLOCError errorCode="89" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.2.a" parameterList="0,1"/>
+    <ENLOCError errorCode="90" xml:lang="en" type="xerces" id="cvc-type.3.1.2" parameterList="0"/>
+    <ENLOCError errorCode="91" xml:lang="en" type="xerces" id="cvc-type.3.1.1" parameterList="0,1"/>
+    <ENLOCError errorCode="92" xml:lang="en" type="xerces" id="UndeclaredPrefix" parameterList="0,1"/>
+    <ENLOCError errorCode="93" xml:lang="en" type="xerces" id="SchemaLocation" parameterList="0"/>
+    <ENLOCError errorCode="94" xml:lang="en" type="xerces" id="UniqueNotEnoughValues" parameterList="0"/>
+    <ENLOCError errorCode="95" xml:lang="en" type="xerces"
+        id="minInclusive-less-than-maxExclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="96" xml:lang="en" type="xerces"
+        id="totalDigits-valid-restriction" parameterList="2,0,1"/>
+    <ENLOCError errorCode="97" xml:lang="en" type="xerces" id="UnknownField" parameterList="0"/>
+    <ENLOCError errorCode="98" xml:lang="en" type="xerces" id="cvc-enumeration-valid" parameterList="0,1"/>
+    <ENLOCError errorCode="99" xml:lang="en" type="xerces" id="rcase-NSCompat.2" parameterList="0,1,2,3,4"/>
+    <ENLOCError errorCode="100" xml:lang="en" type="xerces" id="rcase-NSCompat.1" parameterList="0,1"/>
+    <ENLOCError errorCode="101" xml:lang="en" type="xerces" id="rcase-MapAndSum.2" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="102" xml:lang="en" type="xerces"
+        id="s4s-elt-invalid-content.3" parameterList="0"/>
+    <ENLOCError errorCode="103" xml:lang="en" type="xerces" id="rcase-MapAndSum.1" parameterList=""/>
+    <ENLOCError errorCode="104" xml:lang="en" type="xerces"
+        id="s4s-elt-invalid-content.2" parameterList="0,1"/>
+    <ENLOCError errorCode="105" xml:lang="en" type="xerces"
+        id="s4s-elt-invalid-content.1" parameterList="0,1"/>
+    <ENLOCError errorCode="106" xml:lang="en" type="xerces" id="cos-particle-restrict.b" parameterList=""/>
+    <ENLOCError errorCode="107" xml:lang="en" type="xerces" id="ct-props-correct.5" parameterList="0,1,2"/>
+    <ENLOCError errorCode="108" xml:lang="en" type="xerces" id="cos-particle-restrict.a" parameterList=""/>
+    <ENLOCError errorCode="109" xml:lang="en" type="xerces" id="ct-props-correct.4" parameterList="0,1"/>
+    <ENLOCError errorCode="110" xml:lang="en" type="xerces" id="ct-props-correct.3" parameterList="0,0"/>
+    <ENLOCError errorCode="111" xml:lang="en" type="xerces" id="au-props-correct.2" parameterList="0,1,0,1"/>
+    <ENLOCError errorCode="112" xml:lang="en" type="xerces" id="p-props-correct.2.1" parameterList="0,1,2"/>
+    <ENLOCError errorCode="113" xml:lang="en" type="xerces" id="src-ct.4" parameterList="0"/>
+    <ENLOCError errorCode="114" xml:lang="en" type="xerces" id="UndeclaredEntity" parameterList="0"/>
+    <ENLOCError errorCode="115" xml:lang="en" type="xerces" id="src-import.2" parameterList="0"/>
+    <ENLOCError errorCode="116" xml:lang="en" type="xerces" id="cos-all-limited.2" parameterList="0,1"/>
+    <ENLOCError errorCode="117" xml:lang="en" type="xerces" id="src-ct.1" parameterList="0,1"/>
+    <ENLOCError errorCode="118" xml:lang="en" type="xerces"
+        id="minExclusive-less-than-equal-to-maxExclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="119" xml:lang="en" type="xerces"
+        id="maxInclusive-valid-restriction.4" parameterList="2,0,1"/>
+    <ENLOCError errorCode="120" xml:lang="en" type="xerces" id="cos-valid-default.2.2.2" parameterList="0"/>
+    <ENLOCError errorCode="121" xml:lang="en" type="xerces" id="AbsentKeyValue" parameterList="0"/>
+    <ENLOCError errorCode="122" xml:lang="en" type="xerces"
+        id="maxInclusive-valid-restriction.3" parameterList="2,0,1"/>
+    <ENLOCError errorCode="123" xml:lang="en" type="xerces"
+        id="maxInclusive-valid-restriction.2" parameterList="2,0,1"/>
+    <ENLOCError errorCode="124" xml:lang="en" type="xerces"
+        id="maxExclusive-valid-restriction.4" parameterList="2,0,1"/>
+    <ENLOCError errorCode="125" xml:lang="en" type="xerces" id="cvc-complex-type.5.2" parameterList="0,1,2"/>
+    <ENLOCError errorCode="126" xml:lang="en" type="xerces"
+        id="maxInclusive-valid-restriction.1" parameterList="2,0,1"/>
+    <ENLOCError errorCode="127" xml:lang="en" type="xerces"
+        id="maxExclusive-valid-restriction.3" parameterList="2,0,1"/>
+    <ENLOCError errorCode="128" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.3" parameterList="0,1"/>
+    <ENLOCError errorCode="129" xml:lang="en" type="xerces" id="cvc-complex-type.5.1" parameterList="0,1,2"/>
+    <ENLOCError errorCode="130" xml:lang="en" type="xerces"
+        id="maxExclusive-valid-restriction.2" parameterList="2,0,1"/>
+    <ENLOCError errorCode="131" xml:lang="en" type="xerces" id="src-redefine.5.b.d" parameterList="0,1"/>
+    <ENLOCError errorCode="132" xml:lang="en" type="xerces"
+        id="maxExclusive-valid-restriction.1" parameterList="2,0,1"/>
+    <ENLOCError errorCode="133" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.1" parameterList="0,1,1"/>
+    <ENLOCError errorCode="134" xml:lang="en" type="xerces" id="src-redefine.5.b.c" parameterList="0"/>
+    <ENLOCError errorCode="135" xml:lang="en" type="xerces" id="src-redefine.7.2.2" parameterList="0,1"/>
+    <ENLOCError errorCode="136" xml:lang="en" type="xerces" id="src-redefine.5.b.b" parameterList=""/>
+    <ENLOCError errorCode="137" xml:lang="en" type="xerces" id="src-redefine.7.2.1" parameterList="0"/>
+    <ENLOCError errorCode="138" xml:lang="en" type="xerces" id="src-redefine.5.b.a" parameterList=""/>
+    <ENLOCError errorCode="139" xml:lang="en" type="xerces" id="cvc-pattern-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="140" xml:lang="en" type="xerces" id="cvc-complex-type.3.1" parameterList="2,1,0,1,3"/>
+    <ENLOCError errorCode="141" xml:lang="en" type="xerces" id="e-props-correct.6" parameterList="0"/>
+    <ENLOCError errorCode="142" xml:lang="en" type="xerces" id="e-props-correct.5" parameterList="0"/>
+    <ENLOCError errorCode="143" xml:lang="en" type="xerces" id="a-props-correct.3" parameterList="0"/>
+    <ENLOCError errorCode="144" xml:lang="en" type="xerces" id="e-props-correct.4" parameterList="0,1,1"/>
+    <ENLOCError errorCode="145" xml:lang="en" type="xerces" id="cvc-elt.5.2.2.1" parameterList="0"/>
+    <ENLOCError errorCode="146" xml:lang="en" type="xerces" id="a-props-correct.2" parameterList="1,0"/>
+    <ENLOCError errorCode="147" xml:lang="en" type="xerces" id="e-props-correct.2" parameterList="1,0"/>
+    <ENLOCError errorCode="148" xml:lang="en" type="xerces"
+        id="enumeration-required-notation" parameterList="0,2,1"/>
+    <ENLOCError errorCode="149" xml:lang="en" type="xerces" id="cos-nonambig" parameterList="0,1"/>
+    <ENLOCError errorCode="150" xml:lang="en" type="xerces" id="rcase-RecurseLax.2" parameterList=""/>
+    <ENLOCError errorCode="151" xml:lang="en" type="xerces" id="rcase-RecurseLax.1" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="152" xml:lang="en" type="xerces" id="cos-particle-restrict.2" parameterList="0"/>
+    <ENLOCError errorCode="153" xml:lang="en" type="xerces" id="InvalidRegex" parameterList="0,1"/>
+    <ENLOCError errorCode="154" xml:lang="en" type="xerces" id="DuplicateField" parameterList="0"/>
+    <ENLOCError errorCode="155" xml:lang="en" type="xerces" id="c-general-xpath" parameterList="0"/>
+    <ENLOCError errorCode="156" xml:lang="en" type="xerces" id="s4s-elt-schema-ns" parameterList="0"/>
+    <ENLOCError errorCode="157" xml:lang="en" type="xerces" id="cos-st-restricts.1.1" parameterList="1,0"/>
+    <ENLOCError errorCode="158" xml:lang="en" type="xerces"
+        id="rcase-RecurseUnordered.2" parameterList=""/>
+    <ENLOCError errorCode="159" xml:lang="en" type="xerces"
+        id="rcase-RecurseUnordered.1" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="160" xml:lang="en" type="xerces"
+        id="minInclusive-less-than-equal-to-maxInclusive" parameterList="2,0,1"/>
+    <ENLOCError errorCode="161" xml:lang="en" type="xerces" id="cvc-minExclusive-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="162" xml:lang="en" type="xerces" id="FacetValueFromBase" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="163" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.5.4.2" parameterList="0"/>
+    <ENLOCError errorCode="164" xml:lang="en" type="xerces"
+        id="cvc-datatype-valid.1.2.3" parameterList="0,1"/>
+    <ENLOCError errorCode="165" xml:lang="en" type="xerces"
+        id="cvc-datatype-valid.1.2.2" parameterList="0,1"/>
+    <ENLOCError errorCode="166" xml:lang="en" type="xerces" id="maxOccurLimit" parameterList="0"/>
+    <ENLOCError errorCode="167" xml:lang="en" type="xerces"
+        id="cvc-datatype-valid.1.2.1" parameterList="0,1"/>
+    <ENLOCError errorCode="168" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.7" parameterList="0,1,2"/>
+    <ENLOCError errorCode="169" xml:lang="en" type="xerces" id="cos-element-consistent" parameterList="0,1"/>
+    <ENLOCError errorCode="170" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.6" parameterList="0"/>
+    <ENLOCError errorCode="171" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.5" parameterList="0"/>
+    <ENLOCError errorCode="172" xml:lang="en" type="xerces" id="KeyNotEnoughValues" parameterList="1,0"/>
+    <ENLOCError errorCode="173" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.3" parameterList="0,1,2,3,4"/>
+    <ENLOCError errorCode="174" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.2" parameterList="0"/>
+    <ENLOCError errorCode="175" xml:lang="en" type="xerces" id="rcase-NameAndTypeOK.1" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="176" xml:lang="en" type="xerces" id="src-resolve.4.2" parameterList="2,2,1,0,2,0"/>
+    <ENLOCError errorCode="177" xml:lang="en" type="xerces" id="src-resolve.4.1" parameterList="2,2,0,2,2,0"/>
+    <ENLOCError errorCode="178" xml:lang="en" type="xerces" id="TargetNamespace.2" parameterList="1"/>
+    <ENLOCError errorCode="179" xml:lang="en" type="xerces" id="TargetNamespace.1" parameterList="0,1"/>
+    <ENLOCError errorCode="180" xml:lang="en" type="xerces" id="cvc-minInclusive-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="181" xml:lang="en" type="xerces" id="src-attribute.4" parameterList="0"/>
+    <ENLOCError errorCode="182" xml:lang="en" type="xerces" id="cvc-elt.5.2.2.2.2" parameterList="1,0,2"/>
+    <ENLOCError errorCode="183" xml:lang="en" type="xerces" id="cvc-elt.5.2.2.2.1" parameterList="1,0,2"/>
+    <ENLOCError errorCode="184" xml:lang="en" type="xerces" id="src-attribute.2" parameterList="0"/>
+    <ENLOCError errorCode="185" xml:lang="en" type="xerces" id="src-attribute.1" parameterList="0"/>
+    <ENLOCError errorCode="186" xml:lang="en" type="xerces" id="KeyRefOutOfScope" parameterList="0"/>
+    <ENLOCError errorCode="187" xml:lang="en" type="xerces" id="c-fields-xpaths" parameterList="0"/>
+    <ENLOCError errorCode="188" xml:lang="en" type="xerces" id="src-include.1" parameterList="0"/>
+    <ENLOCError errorCode="189" xml:lang="en" type="xerces" id="cvc-elt.4.3" parameterList="1,2,0"/>
+    <ENLOCError errorCode="190" xml:lang="en" type="xerces" id="cvc-elt.4.2" parameterList="1,0"/>
+    <ENLOCError errorCode="191" xml:lang="en" type="xerces" id="cvc-elt.4.1" parameterList="2,1,0"/>
+    <ENLOCError errorCode="192" xml:lang="en" type="xerces"
+        id="minLength-valid-restriction" parameterList="2,0,1"/>
+    <ENLOCError errorCode="193" xml:lang="en" type="xerces" id="cvc-length-valid" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="194" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.1.3.b" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="195" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.1.3.a" parameterList="0,1"/>
+    <ENLOCError errorCode="196" xml:lang="en" type="xerces" id="s4s-elt-character" parameterList="0"/>
+    <ENLOCError errorCode="197" xml:lang="en" type="xerces" id="KeyNotFound" parameterList="0,1,2"/>
+    <ENLOCError errorCode="198" xml:lang="en" type="xerces" id="GrammarConflict" parameterList=""/>
+    <ENLOCError errorCode="199" xml:lang="en" type="xerces" id="cos-list-of-atomic" parameterList="0,1,1"/>
+    <ENLOCError errorCode="200" xml:lang="en" type="xerces"
+        id="cos-ct-extends.1.4.3.2.2.1.b" parameterList="0"/>
+    <ENLOCError errorCode="201" xml:lang="en" type="xerces"
+        id="maxLength-valid-restriction" parameterList="2,0,1"/>
+    <ENLOCError errorCode="202" xml:lang="en" type="xerces" id="DuplicateUnique" parameterList="0,1"/>
+    <ENLOCError errorCode="203" xml:lang="en" type="xerces"
+        id="cos-ct-extends.1.4.3.2.2.1.a" parameterList="0"/>
+    <ENLOCError errorCode="204" xml:lang="en" type="xerces" id="src-redefine.6.2.2" parameterList="0,1"/>
+    <ENLOCError errorCode="205" xml:lang="en" type="xerces" id="ag-props-correct.3" parameterList="0,1,2"/>
+    <ENLOCError errorCode="206" xml:lang="en" type="xerces" id="src-redefine.6.2.1" parameterList="0"/>
+    <ENLOCError errorCode="207" xml:lang="en" type="xerces" id="ag-props-correct.2" parameterList="0,1"/>
+    <ENLOCError errorCode="208" xml:lang="en" type="xerces"
+        id="minInclusive-valid-restriction.4" parameterList="2,0,1"/>
+    <ENLOCError errorCode="209" xml:lang="en" type="xerces"
+        id="minInclusive-valid-restriction.3" parameterList="2,0,1"/>
+    <ENLOCError errorCode="210" xml:lang="en" type="xerces" id="s4s-att-not-allowed" parameterList="1,0"/>
+    <ENLOCError errorCode="211" xml:lang="en" type="xerces"
+        id="minInclusive-valid-restriction.2" parameterList="2,0,1"/>
+    <ENLOCError errorCode="212" xml:lang="en" type="xerces"
+        id="minExclusive-valid-restriction.4" parameterList="2,0,1"/>
+    <ENLOCError errorCode="213" xml:lang="en" type="xerces"
+        id="minInclusive-valid-restriction.1" parameterList="2,0,1"/>
+    <ENLOCError errorCode="214" xml:lang="en" type="xerces"
+        id="minExclusive-valid-restriction.3" parameterList="2,0,1"/>
+    <ENLOCError errorCode="215" xml:lang="en" type="xerces"
+        id="minExclusive-valid-restriction.2" parameterList="2,0,1"/>
+    <ENLOCError errorCode="216" xml:lang="en" type="xerces"
+        id="minExclusive-valid-restriction.1" parameterList="2,0,1"/>
+    <ENLOCError errorCode="217" xml:lang="en" type="xerces" id="s4s-elt-invalid" parameterList="0"/>
+    <ENLOCError errorCode="218" xml:lang="en" type="xerces" id="src-simple-type.3.b" parameterList=""/>
+    <ENLOCError errorCode="219" xml:lang="en" type="xerces" id="src-simple-type.3.a" parameterList=""/>
+    <ENLOCError errorCode="220" xml:lang="en" type="xerces" id="cvc-maxExclusive-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="221" xml:lang="en" type="xerces" id="src-include.2.1" parameterList="1,0"/>
+    <ENLOCError errorCode="222" xml:lang="en" type="xerces" id="cvc-type.2" parameterList="0"/>
+    <ENLOCError errorCode="223" xml:lang="en" type="xerces" id="c-selector-xpath" parameterList="0"/>
+    <ENLOCError errorCode="224" xml:lang="en" type="xerces" id="cvc-complex-type.3.2.2" parameterList="1,0"/>
+    <ENLOCError errorCode="225" xml:lang="en" type="xerces" id="cvc-complex-type.3.2.1" parameterList="0,1"/>
+    <ENLOCError errorCode="226" xml:lang="en" type="xerces" id="cos-all-limited.1.2" parameterList=""/>
+    <ENLOCError errorCode="227" xml:lang="en" type="xerces" id="src-ct.2.2" parameterList="0"/>
+    <ENLOCError errorCode="228" xml:lang="en" type="xerces" id="cvc-totalDigits-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="229" xml:lang="en" type="xerces" id="FormatFailed" parameterList=""/>
+    <ENLOCError errorCode="230" xml:lang="en" type="xerces" id="KeyMatchesNillable" parameterList="0"/>
+    <ENLOCError errorCode="231" xml:lang="en" type="xerces" id="src-ct.2.1" parameterList="0,1"/>
+    <ENLOCError errorCode="232" xml:lang="en" type="xerces" id="cvc-maxLength-valid" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="233" xml:lang="en" type="xerces" id="no-xmlns" parameterList=""/>
+    <ENLOCError errorCode="234" xml:lang="en" type="xerces" id="cvc-maxInclusive-valid" parameterList="0,1,2"/>
+    <ENLOCError errorCode="235" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.5.4.1.2" parameterList="0,1"/>
+    <ENLOCError errorCode="236" xml:lang="en" type="xerces" id="dt-whitespace" parameterList="0"/>
+    <ENLOCError errorCode="237" xml:lang="en" type="xerces" id="cos-valid-default.2.1" parameterList="0"/>
+    <ENLOCError errorCode="238" xml:lang="en" type="xerces" id="rcase-Recurse.2" parameterList=""/>
+    <ENLOCError errorCode="239" xml:lang="en" type="xerces" id="rcase-Recurse.1" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="240" xml:lang="en" type="xerces"
+        id="length-minLength-maxLength.e" parameterList="0,1,2"/>
+    <ENLOCError errorCode="241" xml:lang="en" type="xerces"
+        id="length-minLength-maxLength.d" parameterList="0,1,2"/>
+    <ENLOCError errorCode="242" xml:lang="en" type="xerces"
+        id="fractionDigits-totalDigits" parameterList="2,0,1"/>
+    <ENLOCError errorCode="243" xml:lang="en" type="xerces"
+        id="length-minLength-maxLength.c" parameterList="0,1,2"/>
+    <ENLOCError errorCode="244" xml:lang="en" type="xerces" id="src-import.3.2" parameterList="1"/>
+    <ENLOCError errorCode="245" xml:lang="en" type="xerces"
+        id="length-minLength-maxLength.b" parameterList="0,1,2"/>
+    <ENLOCError errorCode="246" xml:lang="en" type="xerces" id="src-import.3.1" parameterList="0,1"/>
+    <ENLOCError errorCode="247" xml:lang="en" type="xerces"
+        id="length-minLength-maxLength.a" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="248" xml:lang="en" type="xerces" id="s4s-att-invalid-value" parameterList="1,0,2"/>
+    <ENLOCError errorCode="249" xml:lang="en" type="xerces" id="src-import.1.1" parameterList="0"/>
+    <ENLOCError errorCode="250" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.5.2.2.1" parameterList="0,1,2"/>
+    <ENLOCError errorCode="251" xml:lang="en" type="xerces" id="cvc-attribute.4" parameterList="2,1,0,3"/>
+    <ENLOCError errorCode="252" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.1.2" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="253" xml:lang="en" type="xerces" id="cvc-attribute.3" parameterList="2,1,0,3"/>
+    <ENLOCError errorCode="254" xml:lang="en" type="xerces"
+        id="derivation-ok-restriction.2.1.1" parameterList="0,1,2"/>
+    <ENLOCError errorCode="255" xml:lang="en" type="xerces" id="c-props-correct.2" parameterList="0,1"/>
+    <ENLOCError errorCode="256" xml:lang="en" type="xerces" id="cvc-id.3" parameterList="0,1"/>
+    <ENLOCError errorCode="257" xml:lang="en" type="xerces"
+        id="whiteSpace-valid-restriction.2" parameterList="0"/>
+    <ENLOCError errorCode="258" xml:lang="en" type="xerces" id="cvc-id.2" parameterList="0"/>
+    <ENLOCError errorCode="259" xml:lang="en" type="xerces"
+        id="whiteSpace-valid-restriction.1" parameterList="0,1"/>
+    <ENLOCError errorCode="260" xml:lang="en" type="xerces" id="cvc-id.1" parameterList="0"/>
+    <ENLOCError errorCode="261" xml:lang="en" type="xerces" id="src-element.2.2" parameterList="0,1"/>
+    <ENLOCError errorCode="262" xml:lang="en" type="xerces" id="cvc-complex-type.2.4.d" parameterList="0"/>
+    <ENLOCError errorCode="263" xml:lang="en" type="xerces" id="src-element.2.1" parameterList=""/>
+    <ENLOCError errorCode="264" xml:lang="en" type="xerces" id="cvc-complex-type.2.4.c" parameterList="0"/>
+    <ENLOCError errorCode="265" xml:lang="en" type="xerces" id="cvc-complex-type.2.4.b" parameterList="0,1"/>
+    <ENLOCError errorCode="266" xml:lang="en" type="xerces" id="cvc-complex-type.2.4.a" parameterList="0,1"/>
+    <ENLOCError errorCode="267" xml:lang="en" type="xerces" id="src-redefine.5.a.c" parameterList="0,1"/>
+    <ENLOCError errorCode="268" xml:lang="en" type="xerces" id="KeyRefNotEnoughValues" parameterList="1,0"/>
+    <ENLOCError errorCode="269" xml:lang="en" type="xerces" id="src-redefine.5.a.b" parameterList="0"/>
+    <ENLOCError errorCode="270" xml:lang="en" type="xerces" id="src-redefine.5.a.a" parameterList=""/>
+    <ENLOCError errorCode="271" xml:lang="en" type="xerces" id="src-element.3" parameterList="0"/>
+    <ENLOCError errorCode="272" xml:lang="en" type="xerces" id="src-annotation" parameterList="0"/>
+    <ENLOCError errorCode="273" xml:lang="en" type="xerces" id="cvc-complex-type.2.3" parameterList="0"/>
+    <ENLOCError errorCode="274" xml:lang="en" type="xerces" id="cvc-complex-type.2.2" parameterList="0"/>
+    <ENLOCError errorCode="275" xml:lang="en" type="xerces" id="src-element.1" parameterList="0"/>
+    <ENLOCError errorCode="276" xml:lang="en" type="xerces" id="cvc-complex-type.2.1" parameterList="0"/>
+    <ENLOCError errorCode="277" xml:lang="en" type="xerces" id="src-attribute.3.2" parameterList="0"/>
+    <ENLOCError errorCode="278" xml:lang="en" type="xerces" id="src-attribute.3.1" parameterList=""/>
+    <ENLOCError errorCode="279" xml:lang="en" type="xerces" id="src-redefine.7.1" parameterList="0"/>
+    <ENLOCError errorCode="280" xml:lang="en" type="xerces" id="cos-ct-extends.1.1" parameterList="0,1,1"/>
+    <ENLOCError errorCode="281" xml:lang="en" type="xerces" id="cvc-elt.5.1.1" parameterList="2,0,1"/>
+    <ENLOCError errorCode="282" xml:lang="en" type="xerces" id="FieldMultipleMatch" parameterList="0"/>
+    <ENLOCError errorCode="283" xml:lang="en" type="xerces" id="FixedFacetValue" parameterList="3,1,0,0,2"/>
+    <ENLOCError errorCode="284" xml:lang="en" type="xapinteco"
+        id="errorReadingPeridodTypeAttribute" parameterList=""/>
+    <ENLOCError errorCode="285" xml:lang="en" type="xapinteco"
+        id="errorCreatingDimension" parameterList=""/>
+    <ENLOCError errorCode="286" xml:lang="en" type="xapinteco"
+        id="errorTryingViewInstance" parameterList=""/>
+    <ENLOCError errorCode="287" xml:lang="en" type="xapinteco"
+        id="errorInValidationReportFile" parameterList="0"/>
+    <ENLOCError errorCode="288" xml:lang="en" type="xapinteco"
+        id="errorGettingGlobalTupleTable" parameterList=""/>
+    <ENLOCError errorCode="289" xml:lang="en" type="xapinteco"
+        id="failedGettingInstanceByte" parameterList=""/>
+    <ENLOCError errorCode="290" xml:lang="en" type="xapinteco"
+        id="errorCreatingFootNoteArcRoleNotFound" parameterList="0"/>
+    <ENLOCError errorCode="291" xml:lang="en" type="xapinteco" id="errorCreatingContext" parameterList=""/>
+    <ENLOCError errorCode="292" xml:lang="en" type="xapinteco"
+        id="errorInValidationXbrlInstance" parameterList="1,0"/>
+    <ENLOCError errorCode="293" xml:lang="en" type="xapinteco"
+        id="notFoundReportInGlobal" parameterList="0"/>
+    <ENLOCError errorCode="294" xml:lang="en" type="xapinteco"
+        id="errorInTransformationToXml" parameterList="0"/>
+    <ENLOCError errorCode="295" xml:lang="en" type="xapinteco" id="errorCreatingUnit" parameterList=""/>
+    <ENLOCError errorCode="296" xml:lang="en" type="xapinteco"
+        id="errorCreatingConceptMap" parameterList=""/>
+    <ENLOCError errorCode="297" xml:lang="en" type="xapinteco"
+        id="notFoundModuleForReportInGlobal" parameterList="0,1"/>
+    <ENLOCError errorCode="298" xml:lang="en" type="xapinteco"
+        id="errorInReportFileDeserialization" parameterList="0"/>
+    <ENLOCError errorCode="299" xml:lang="en" type="xapinteco"
+        id="errorGettingXPathPrefixMaps" parameterList=""/>
+    <ENLOCError errorCode="300" xml:lang="en" type="xapinteco"
+        id="unsuportedEncodingInstanceByte&quot;" parameterList=""/>
+    <ENLOCError errorCode="301" xml:lang="en" type="xapinteco"
+        id="hyperCubeNotFoundInRoleGDM" parameterList="0"/>
+    <ENLOCError errorCode="302" xml:lang="en" type="xapinteco"
+        id="errorValidatingInstanceNotLoad" parameterList="0"/>
+    <ENLOCError errorCode="303" xml:lang="en" type="xapinteco"
+        id="failedWriteXbrlDocument" parameterList="0,1"/>
+    <ENLOCError errorCode="304" xml:lang="en" type="xapinteco"
+        id="coreErrorCreatingNamespaces" parameterList=""/>
+    <ENLOCError errorCode="305" xml:lang="en" type="xapinteco"
+        id="errorCheckingPeridoTypeIsInstant" parameterList="0"/>
+    <ENLOCError errorCode="306" xml:lang="en" type="xapinteco"
+        id="errorCreatingFootNote" parameterList="0"/>
+    <ENLOCError errorCode="307" xml:lang="en" type="xapinteco"
+        id="errorCreatingFactConceptNotFound" parameterList="0"/>
+    <ENLOCError errorCode="308" xml:lang="en" type="xapinteco"
+        id="notExistTempDirectory" parameterList="0"/>
+    <ENLOCError errorCode="309" xml:lang="en" type="xapinteco"
+        id="errorCreatingStatement" parameterList="0,1,2"/>
+    <ENLOCError errorCode="310" xml:lang="en" type="xapinteco"
+        id="errorCreatingXBRLContext" parameterList=""/>
+    <ENLOCError errorCode="311" xml:lang="en" type="xapinteco"
+        id="errorExtractingContextFromFact" parameterList=""/>
+    <ENLOCError errorCode="312" xml:lang="en" type="xapinteco"
+        id="errorContextWithoutScenario" parameterList="0"/>
+    <ENLOCError errorCode="333" xml:lang="en" type="xapinteco"
+        id="errorInValidationXmlInput" parameterList="0"/>
+    <ENLOCError errorCode="334" xml:lang="en" type="xapinteco"
+        id="errorGettingGlobalTupleChildsTable" parameterList=""/>
+    <ENLOCError errorCode="335" xml:lang="en" type="xapinteco"
+        id="errorGettingCodeLabel" parameterList=""/>
+    <ENLOCError errorCode="336" xml:lang="en" type="xapinteco" id="notExistReportFile" parameterList="0"/>
+    <ENLOCError errorCode="337" xml:lang="en" type="xapinteco"
+        id="errorAddMembersToConceptMap" parameterList=""/>
+    <ENLOCError errorCode="338" xml:lang="en" type="xapinteco"
+        id="errorInicializingProcessor" parameterList=""/>
+    <ENLOCError errorCode="339" xml:lang="en" type="xapinteco" id="errorLoadingTaxonomy" parameterList="0,1,2"/>
+    <ENLOCError errorCode="340" xml:lang="en" type="xapinteco"
+        id="errorTryingViewInstanceExternal" parameterList="0"/>
+    <ENLOCError errorCode="341" xml:lang="en" type="xapinteco"
+        id="errorGettingRoleFromDTS" parameterList="0"/>
+    <ENLOCError errorCode="342" xml:lang="en" type="xapinteco"
+        id="errorTranslatingFactsFromIteratorToTable" parameterList=""/>
+    <ENLOCError errorCode="343" xml:lang="en" type="xapinteco" id="roleNotFoundInMap" parameterList="0,1"/>
+    <ENLOCError errorCode="344" xml:lang="en" type="xapinteco"
+        id="errorCreatingStatementDimensionMap" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="345" xml:lang="en" type="xapinteco"
+        id="errorCreatingTupleConceptNotFound" parameterList="0"/>
+    <ENLOCError errorCode="346" xml:lang="en" type="xapinteco" id="fileNotFound" parameterList="0,1"/>
+    <ENLOCError errorCode="347" xml:lang="en" type="xapinteco"
+        id="errorGettingContextTable" parameterList=""/>
+    <ENLOCError errorCode="348" xml:lang="en" type="xapinteco"
+        id="errorInMapFileDeserialization" parameterList="0"/>
+    <ENLOCError errorCode="349" xml:lang="en" type="xapinteco"
+        id="errorInGlobalFileDeserialization" parameterList="0"/>
+    <ENLOCError errorCode="350" xml:lang="en" type="xapinteco" id="notExistGlobalFile" parameterList="0"/>
+    <ENLOCError errorCode="351" xml:lang="en" type="xapinteco" id="notExistDirectoryMap" parameterList="0"/>
+    <ENLOCError errorCode="352" xml:lang="en" type="xapinteco"
+        id="coreErrorGettingCodeLabel" parameterList=""/>
+    <ENLOCError errorCode="353" xml:lang="en" type="xapinteco" id="errorCreatingMap" parameterList="0,1,2,3"/>
+    <ENLOCError errorCode="354" xml:lang="en" type="xapinteco"
+        id="errorTryingViewInstanceResultFile" parameterList="0"/>
+    <ENLOCError errorCode="355" xml:lang="en" type="xapinteco" id="errorGettingUnitList" parameterList=""/>
+    <ENLOCError errorCode="356" xml:lang="en" type="xapinteco"
+        id="errorCreatingInstantPeriod" parameterList=""/>
+    <ENLOCError errorCode="357" xml:lang="en" type="xapinteco"
+        id="errorGettingSchemaFromInstance" parameterList=""/>
+    <ENLOCError errorCode="358" xml:lang="en" type="xapinteco"
+        id="genericErrorValidatingInstance" parameterList="0"/>
+    <ENLOCError errorCode="359" xml:lang="en" type="xapinteco" id="errorItemInBadModule" parameterList="0,1,2"/>
+    <ENLOCError errorCode="360" xml:lang="en" type="xapinteco"
+        id="errorCreatingFootNoteLinkLinkRoleNotFound" parameterList="0"/>
+    <ENLOCError errorCode="361" xml:lang="en" type="xapinteco"
+        id="notExistDomainMemberForModule" parameterList="0,1"/>
+    <ENLOCError errorCode="362" xml:lang="en" type="xapinteco" id="errorCreatingMeasure" parameterList=""/>
+    <ENLOCError errorCode="363" xml:lang="en" type="xapinteco"
+        id="canNotResolveSchemaRef" parameterList="0"/>
+    <ENLOCError errorCode="364" xml:lang="en" type="xapinteco" id="notExistUnitCode" parameterList="0,1"/>
+    <ENLOCError errorCode="365" xml:lang="en" type="xapinteco"
+        id="errorCreatingTupleChildConceptNotFound" parameterList="0"/>
+    <ENLOCError errorCode="366" xml:lang="en" type="xapinteco" id="notExistMapFile" parameterList="0"/>
+    <ENLOCError errorCode="367" xml:lang="en" type="xapinteco" id="unsuportedEncoding" parameterList=""/>
+    <ENLOCError errorCode="368" xml:lang="en" type="xapinteco" id="notExistUnitKey" parameterList="0,1"/>
+    <ENLOCError errorCode="369" xml:lang="en" type="xapinteco" id="errorLoadingInstance" parameterList="0,1"/>
+    <ENLOCError errorCode="370" xml:lang="en" type="xapinteco" id="errorCreatingTuple" parameterList=""/>
+    <ENLOCError errorCode="371" xml:lang="en" type="xapinteco"
+        id="errorCreatingXBRLFact" parameterList=""/>
+    <ENLOCError errorCode="372" xml:lang="en" type="xapinteco"
+        id="errorInTransformationToXbrl" parameterList="0"/>
+    <ENLOCError errorCode="373" xml:lang="en" type="xapinteco"
+        id="errorGettingDimensionalModule" parameterList="0,1"/>
+    <ENLOCError errorCode="374" xml:lang="en" type="xapinteco"
+        id="errorCreatingDurationPeriod" parameterList=""/>
+    <ENLOCError errorCode="375" xml:lang="en" type="xapinteco"
+        id="errorCreatingFootNoteLink" parameterList=""/>
+    <ENLOCError errorCode="376" xml:lang="en" type="xapinteco"
+        id="errorCreatingFootNoteNoteRoleNotFound" parameterList="0"/>
+    <ENLOCError errorCode="377" xml:lang="en" type="xapinteco"
+        id="errorValidatingInstance" parameterList="0"/>
+    <ENLOCError errorCode="378" xml:lang="en" type="xapinteco" id="errorIdNotFoundInMap" parameterList="0,1,2"/>
+    <ENLOCError errorCode="379" xml:lang="en" type="xapinteco"
+        id="errorGettingGlobalTupleTableByParent" parameterList=""/>
+    <ENLOCError errorCode="380" xml:lang="en" type="xapinteco" id="notFoudUnitCode" parameterList="0"/>
+    <ENLOCError errorCode="381" xml:lang="en" type="xapinteco"
+        id="errorCreatingXbrlInstance" parameterList="0,1,2"/>
+    <ENLOCError errorCode="382" xml:lang="en" type="xapinteco" id="errorCreatingConcept" parameterList=""/>
+    <ENLOCError errorCode="383" xml:lang="en" type="xapinteco" id="errorGettingModule" parameterList="0,1"/>
+    <ENLOCError errorCode="384" xml:lang="en" type="xapinteco"
+        id="errorCreatingNamespaces" parameterList=""/>
+    <ENLOCError errorCode="385" xml:lang="en" type="xapinteco" id="notCataloguedError" parameterList=""/>
+    <ENLOCError errorCode="386" xml:lang="en" type="xapinteco" id="duplicateIemsError" parameterList="0"/>
+    <ENLOCError errorCode="387" xml:lang="en" type="xapinteco" id="errorGettingMembers" parameterList=""/>
+    <ENLOCError errorCode="388" xml:lang="en" type="xapinteco"
+        id="errorGettingGlobalFactsTable" parameterList=""/>
+    <ENLOCError errorCode="389" xml:lang="en" type="xapinteco"
+        id="errorCreatingTupleChild" parameterList=""/>
+    <ENLOCError errorCode="390" xml:lang="en" type="xapinteco"
+        id="errorCheckingFactIsTuple" parameterList=""/>
+    <ENLOCError errorCode="391" xml:lang="en" type="xapinteco"
+        id="genericTraceMessage" parameterList=""/>
+    <ENLOCError errorCode="392" xml:lang="en" type="xapinteco"
+        id="notFoundInputDocumentToValidate" parameterList="0"/>
+    <ENLOCError errorCode="393" xml:lang="en" type="xapinteco"
+        id="notFoundSchemaRefInTheInstance" parameterList=""/>
+</ENLOCErrorsCatalog>
